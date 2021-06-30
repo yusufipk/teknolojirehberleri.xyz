@@ -21,7 +21,7 @@ Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada 
 Gördüğünüz gibi düğmemiz var ve bu düğmeyle 3 tema arasında seçim yapabiliyoruz.
 
 ## Düğmeyi Oluşturma
-Düğmeyi oluşturmak için checkbox, radio veya button elementlerini kullanabiliriz. Burada ben radi elementini kullanacağım.
+Düğmeyi oluşturmak için checkbox, radio veya button elementlerini kullanabiliriz. Burada ben radio elementini kullanacağım.
 
 ```
 <div class="radio">
@@ -109,8 +109,8 @@ function changeTheme() {
 ```
 Şimdi de eventListener eklememiz lazım, yapmasını istediğimiz iki şey var;
 
-Radio elementine tıkladığımızda diğer bütün radio elementlerini uncheck haline getirmemiz lazım.
-Her radio elementine tıkladığımızda changeTheme() fonksiyonunu çalıştırmamız lazım.
+1. Radio elementine tıkladığımızda diğer bütün radio elementlerini ``uncheck`` haline getirmemiz lazım.
+2. Her radio elementine tıkladığımızda changeTheme() fonksiyonunu çalıştırmamız lazım.
 ```
  theme1.addEventListener("click", () => {
   theme2.checked = false;
@@ -131,7 +131,7 @@ theme3.addEventListener("click", () => {
 
 Bununla birlikte bütün temalarımız işlevesel bir şekilde çalışıyor! Kullanıcı hangi temaya tıklarsa site ona göre değişecek.
 
-Kullanıcının Tercihine Göre Temayı Kaydetme
+## Kullanıcının Tercihine Göre Temayı Kaydetme
 İki sorunumuz var:
 
 1. Kodumuzda varsayılan tema yok.

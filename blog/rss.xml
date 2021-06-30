@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Teknoloji Rehberleri</title>
+<link>http://localhost/blog</link>
+<description>blog</description>
+<item>
+<title># Websitenize Tema Ekleme</title>
+<link>http://localhost/blog/websitenize-tema-ekleme.html</link>
+<guid>http://localhost/blog/websitenize-tema-ekleme.html</guid>
+<pubDate>Prş, 01 Tem 2021 01:24:40 +0300</pubDate>
+<description>![websitenize-tema-ekleme](pictures/websitenize-tema-ekleme.webp)</description>
+</item>
+</channel>
+</rss>
