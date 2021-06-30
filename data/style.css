@@ -4,7 +4,6 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 0 16px;
-  margin-bottom: 500px;
   font-family: sans-serif;
 }
 
@@ -14,6 +13,14 @@ a {
 
 a:visited {
   color: gray;
+}
+
+ol > li {
+  margin-bottom: 0.5rem;
+}
+
+ul > li {
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -29,15 +36,22 @@ footer {
 }
 
 img {
+  border-radius: 5px;
   max-width: 600px;
   width: 100%;
   margin: auto;
   display: block;
 }
 
+pre {
+  border-radius: 4px;
+  background-color: #12161b;
+  padding: 0 0.3rem 1rem 1rem;
+}
+
 code {
   overflow-wrap: break-word;
-  color: lime;
+  color: white;
 }
 
 @media (prefers-color-scheme: light) {
@@ -53,9 +67,6 @@ code {
   }
   h2 {
     color: inherit;
-  }
-  code {
-    color: forestgreen;
   }
 }
 
