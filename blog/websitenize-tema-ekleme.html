@@ -47,7 +47,7 @@ Gördüğünüz gibi düğmemiz var ve bu düğmeyle 3 tema arasında seçim yap
 
 <h2> Düğmeyi Oluşturma</h2>
 <p>
-Düğmeyi oluşturmak için checkbox, radio veya button elementlerini kullanabiliriz. Burada ben radi elementini kullanacağım.
+Düğmeyi oluşturmak için checkbox, radio veya button elementlerini kullanabiliriz. Burada ben radio elementini kullanacağım.
 </p>
 
 <pre><code>
@@ -149,10 +149,11 @@ function changeTheme() {
 <p>
 Şimdi de eventListener eklememiz lazım, yapmasını istediğimiz iki şey var;
 </p>
-<p>
-Radio elementine tıkladığımızda diğer bütün radio elementlerini uncheck haline getirmemiz lazım.
-Her radio elementine tıkladığımızda changeTheme() fonksiyonunu çalıştırmamız lazım.
-</p>
+
+<ol>
+<li>Radio elementine tıkladığımızda diğer bütün radio elementlerini <code></code>uncheck<code></code> haline getirmemiz lazım.</li>
+<li>Her radio elementine tıkladığımızda changeTheme() fonksiyonunu çalıştırmamız lazım.</li>
+</ol>
 <pre><code>
  theme1.addEventListener("click", () =&gt; {
   theme2.checked = false;
@@ -173,8 +174,9 @@ theme3.addEventListener("click", () =&gt; {
 <p>
 Bununla birlikte bütün temalarımız işlevesel bir şekilde çalışıyor! Kullanıcı hangi temaya tıklarsa site ona göre değişecek.
 </p>
+
+<h2> Kullanıcının Tercihine Göre Temayı Kaydetme</h2>
 <p>
-Kullanıcının Tercihine Göre Temayı Kaydetme
 İki sorunumuz var:
 </p>
 
@@ -260,7 +262,7 @@ Benim ilk kodlama rehberimdi ve herhangi bir geri bildiriminiz varsa lütfen ban
 <p>
 Yusuf İpek <a href="https://yusufipek.me">website</a>, <a href="https://www.youtube.com/channel/UCVBX2n_5egE9XuJL8NUS0Xg">youtube</a>
 </p>
-</main><p><i>Yazının paylaşıldığı tarih: 01-07-2021 01:24:40, son düzenleme tarihi: 01-07-2021 01:24:40, yazar: Yusuf İpek</i></p>
+</main><p><i>Yazının paylaşıldığı tarih: 01-07-2021 01:24:40, son düzenleme tarihi: 01-07-2021 01:29:57, yazar: Yusuf İpek</i></p>
 <footer>
     <hr/>
     <a href=".">ana sayfa</a>
