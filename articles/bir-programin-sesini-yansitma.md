@@ -1,4 +1,4 @@
-# Bir Programın Sesini Yansıtma
+Bir Programın Sesini Yansıtma
 Linux'a yeni geçen arkdaşların sorduğu sorulardan birisi, arkadaşlarımla oyunumun, videomun sesini Discord üzerinden paylaşamıyorum! Nasıl yapabilirim?
 
 Bugüne kadar bildiğim çözümler sesi yansıttığınızda sizin konuşanızı engelliyordu. Soundux adlı bir program keşfettim ve bu program sayesinde istediğiniz sesi istediğiniz uygulamaya yansıtabiliyor aynı zamanda mikrofonunuz ile konuşmaya devam edebiliyorsunuz!

@@ -5,7 +5,7 @@ Herkesin teknoloji rehberi yazabildiği bir websitesi. İzleyici, reklam veya ç
 
 ## Rehber Ekleme Kuralları
 - Rehberinizi markdown dosyası olarak yazacaksınız. [örnek.md](örnek.md) dosyasına lütfen göz atın ve `articles/` klasörüne rehberinizi koyun.
-- Rehberiniz başlık ile başlamalıdır ve başında `#` olmalıdır.
+- Rehberiniz başlık ile başlamalıdır. Rehber başlığınıza `#` koymanıza gerek yok.
 - Dosya isimleri rehberin adı olmalıdır ve `-` ile ayrılmalıdır. Boşlukla veya `_` ile ayrılmamalıdır. Örn: `linuxta-sanal-makine-kurulumu.md`
 - Dosya isimlerinde Türkçe karakter olmamalıdır. (ö,ı vb.) Kullandığımız blogit uygulaması izin vermiyor.
 - Rehberler size ait olmalıdır.

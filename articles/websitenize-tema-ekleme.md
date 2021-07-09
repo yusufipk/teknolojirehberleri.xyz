@@ -1,4 +1,4 @@
-# Websitenize Tema Ekleme
+Websitenize Tema Ekleme
 ![websitenize-tema-ekleme](pictures/websitenize-tema-ekleme.webp)
 
 Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada karanlık tema tercih ediyorum. Peki tema seçeneklerini sitemize nasıl koyarız? Birden fazla temayı sitemizde nasıl yapabiliriz bu rehberde bunu anlatacağım.
