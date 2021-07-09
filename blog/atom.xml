@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Teknoloji Rehberleri</title>
+<subtitle type="text">blog</subtitle>
+<updated>2021-07-09T18:43:26Z</updated>
+<link rel="alternate" type="text/html" href="http://localhost/blog"/>
+<id>http://localhost/blog/atom.xml</id>
+<link rel="self" type="application/atom+xml" href="http://localhost/blog/atom.xml"/>
+<entry>
+<title type="text"># Bir Programın Sesin Yansıtma</title>
+<link rel="alternate" type="text/html" href="http://localhost/blog/bir-programin-sesini-yansitma.html"/>
+<id>http://localhost/blog/bir-programin-sesini-yansitma.html</id>
+<published>2021-07-09T18:43:21Z</published>
+<updated>2021-07-09T18:43:21Z</updated>
+<author><name>Yusuf İpek</name></author>
+<summary type="text">Linux'a yeni geçen arkdaşların sorduğu sorulardan birisi, arkadaşlarımla oyunumun, videomun sesini Discord üzerinden paylaşamıyorum! Nasıl yapabilirim?</summary>
+</entry>
+<entry>
+<title type="text"># Websitenize Tema Ekleme</title>
+<link rel="alternate" type="text/html" href="http://localhost/blog/websitenize-tema-ekleme.html"/>
+<id>http://localhost/blog/websitenize-tema-ekleme.html</id>
+<published>2021-07-01T01:24:40Z</published>
+<updated>2021-07-01T01:29:57Z</updated>
+<author><name>Yusuf İpek</name></author>
+<summary type="text">![websitenize-tema-ekleme](pictures/websitenize-tema-ekleme.webp)</summary>
+</entry>
+</feed>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title># Websitenize Tema Ekleme</title>
+    <meta name"description" content="Teknoloji rehberleri. Reklam ve
+    izleyici yok!" >
+  </head>
+  <body>
+<h1># Websitenize Tema Ekleme</h1><p>
+<img src="pictures/websitenize-tema-ekleme.webp" alt="websitenize-tema-ekleme"/>
+</p>
+<p>
+Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada karanlık tema tercih ediyorum. Peki tema seçeneklerini sitemize nasıl koyarız? Birden fazla temayı sitemizde nasıl yapabiliriz bu rehberde bunu anlatacağım.
+</p>
+
+<ol>
+<li>Ne yapacağız?</li>
+<li>Düğmeyi oluşturma</li>
+<li>Renk düzenlerini oluşturma</li>
+<li>İşlevsellik</li>
+<li>Kullanıcının tercihine göre temayı kaydetme</li>
+<li>Kapanış</li>
+<li>Katkıda bulunanlar</li>
+</ol>
+
+<h2> Ne Yapacağız?</h2>
+<p>
+Örnek olarak projelerimden birisini kullanacağım. Geçtiğimiz haftalarda 3 tane teması olan bir hesap makinesi yaptım.
+</p>
+<p>
+<a href="https://github.com/yusufipk/another-calculator">kod</a> | <a href="https://yusufipk.github.io/another-calculator/">canlı demo</a>
+</p>
+<p>
+<img src="pictures/websitenize-tema-ekleme-01.webp" alt="websitenize-tema-ekleme-01"/>
+</p>
+<p>
+Gördüğünüz gibi düğmemiz var ve bu düğmeyle 3 tema arasında seçim yapabiliyoruz.
+</p>
+
+<h2> Düğmeyi Oluşturma</h2>
+<p>
+Düğmeyi oluşturmak için checkbox, radio veya button elementlerini kullanabiliriz. Burada ben radio elementini kullanacağım.
+</p>
+
+<pre><code>
+&lt;div class="radio"&gt;
+  &lt;input type="radio" id="theme1" name="theme1" /&gt;
+  &lt;input type="radio" id="theme2" name="theme2" /&gt;
+  &lt;input type="radio" id="theme3" name="theme3" /&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2> Renk Düzenlerini Oluşturma</h2>
+<p>
+Renk düzenlerini CSS değişkenlerini kullanarak oluşturacağız. SASS değişkenlerinin derlenmesi gerektiğinden SASS değişkenleri kullanamazsınız! Bu uygulamada ben üç tane tema yapıyorum dolayısıyla üç tane renk düzeni oluşturacağım. İlki;
+</p>
+<pre><code>
+ :root {
+  --color-main: #3b4664;
+  --color-white: #ffffff;
+  --bg-main: #181f32;
+  --bg-buttons: rgba(37, 45, 68, 0.6);
+  --num: #eae3db;
+  --number-color: #484b5a;
+  --number-border: #b3a599;
+  --button-secondary: #647299;
+  --border-secondary: #404d70;
+  --button-tertiary: #d13f30;
+  --border-tertiary: #922417;
+  --radio-color: #cf3f34;
+}
+</code></pre>
+<p>
+Bu varsayılan temam olacak dolayısıyla herhangi bir attribute eklememe gerek yok. İkinci temam;
+</p>
+<pre><code>
+body[data-theme="light"] {
+  --color-main: #e6e6e6;
+  --color-white: #3a3a32;
+  --bg-main: #eeeeee;
+  --bg-buttons: #d3cdcd;
+  --num: #e5e4e0;
+  --number-color: #3a3a32;
+  --number-border: #a69c93;
+  --button-secondary: #388187;
+  --border-secondary: #1a5d66;
+  --button-tertiary: #c85401;
+  --border-tertiary: #873a02;
+}
+</code></pre>
+<p>
+Bu aydınlık temamız olacak. data-theme yazarak bunu belirtmemiz gerekli. Data özel bir attribute. Data hakkında daha fazla bilgi almak istiyorsanız <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*">buraya bakın.</a>
+</p>
+<p>
+Son temamızsa;
+</p>
+<pre><code>
+body[data-theme="purple"] {
+  --color-main: #17062a;
+  --color-white: #ffe43b;
+  --bg-main: #1e0836;
+  --bg-buttons: #1e0836;
+  --num: #331b4d;
+  --number-color: #ffe537;
+  --number-border: #85219b;
+  --button-secondary: #56077c;
+  --border-secondary: #bf15f4;
+  --button-tertiary: #00decf;
+  --border-tertiary: #6dfaf1;
+  --radio-color: #00e8d8;
+}
+</code></pre>
+<p>
+Bu kurulumla birlikte değişkenlerimizi kodumuzda kullanıp istediğimiz temayı dinamik olarak sayfamızda değiştirebileceğiz.
+</p>
+
+<h2> İşlevselliği Ekliyoruz</h2>
+<p>
+İlk olarak radio elementlerimizi Javascript ile seçmemiz gerekli.
+</p>
+<pre><code>
+const theme1 = document.getElementById("theme1");
+const theme2 = document.getElementById("theme2");
+const theme3 = document.getElementById("theme3");
+</code></pre>
+<p>
+Şimdi <code></code>changeTheme()<code></code> fonksiyonunu oluşturacağız. Bu fonksiyon body attribute değerini değiştirmemizi sağlayacak ve böylece istediğimiz temayı sitede kullanabileceğiz.
+</p>
+
+<pre><code>
+function changeTheme() {
+  if (theme1.checked) {
+    document.body.setAttribute("data-theme", "");
+  } else if (theme2.checked) {
+    document.body.setAttribute("data-theme", "light");
+  } else if (theme3.checked) {
+    document.body.setAttribute("data-theme", "purple");
+  } else return;
+}
+</code></pre>
+<p>
+Şimdi de eventListener eklememiz lazım, yapmasını istediğimiz iki şey var;
+</p>
+
+<ol>
+<li>Radio elementine tıkladığımızda diğer bütün radio elementlerini <code></code>uncheck<code></code> haline getirmemiz lazım.</li>
+<li>Her radio elementine tıkladığımızda changeTheme() fonksiyonunu çalıştırmamız lazım.</li>
+</ol>
+<pre><code>
+ theme1.addEventListener("click", () =&gt; {
+  theme2.checked = false;
+  theme3.checked = false;
+  changeTheme();
+});
+theme2.addEventListener("click", () =&gt; {
+  theme1.checked = false;
+  theme3.checked = false;
+  changeTheme();
+});
+theme3.addEventListener("click", () =&gt; {
+  theme1.checked =false;
+  theme2.checked = false;
+  changeTheme();
+});
+</code></pre>
+<p>
+Bununla birlikte bütün temalarımız işlevesel bir şekilde çalışıyor! Kullanıcı hangi temaya tıklarsa site ona göre değişecek.
+</p>
+
+<h2> Kullanıcının Tercihine Göre Temayı Kaydetme</h2>
+<p>
+İki sorunumuz var:
+</p>
+
+<ol>
+<li>Kodumuzda varsayılan tema yok.</li>
+<li>Kullanıcının tercih ettiği temayı kaydetmiyoruz. Sayfa her yenilendiğinde tema eski haline dönüyor.</li>
+</ol>
+<p>
+Bu sorunu localStorage kullanarak aşacağız.
+</p>
+<p>
+İlk olarak varsayılan tema oluştralım.
+</p>
+
+<pre><code>
+// Varsayılan temam "theme1" olacak
+if (localStorage.getItem("theme") === null) {
+  localStorage.setItem("theme", "theme1");
+}
+</code></pre>
+<p>
+Switch kullanarak her sayfayı yenilediğimizde seçilen temayı tekrar seçeceğiz.
+</p>
+
+<pre><code>
+switch (localStorage.getItem("theme")) {
+  case "theme1":
+    theme1.checked = true;
+    break;
+  case "theme2":
+    theme2.checked = true;
+    break;
+  case "theme3":
+    theme3.checked = true;
+    break;
+  default:
+    break;
+}
+</code></pre>
+<p>
+Daha sonrasında localStorage.setItem() kullanarak eventListener'larının kullanıcının seçtiği temayı localStorage'a kaydetmesini sağlayacağız.
+</p>
+
+<pre><code>
+theme1.addEventListener("click", () =&gt; {
+  theme2.checked = false;
+  theme3.checked = false;
+  // New Code
+  localStorage.setItem("theme", "theme1");
+  changeTheme();
+});
+theme2.addEventListener("click", () =&gt; {
+  theme1.checked = false;
+  theme3.checked = false;
+  // New Code
+  localStorage.setItem("theme", "theme2");
+  changeTheme();
+});
+theme3.addEventListener("click", () =&gt; {
+  theme1.checked = false;
+  theme2.checked = false;
+  // New Code
+  localStorage.setItem("theme", "theme3");
+  changeTheme();
+});
+</code></pre>
+<p>
+Son olarak kodun sonunda <code></code>changeTheme()<code></code> fonksiyonunu çağırmamız gerekli ki her sayfayı yenilediğimizde rengimiz değişebilsin.
+</p>
+<p>
+Bu kadar! Websitemizde kullanıcının seçebileceği 3 tane temamız var ve localStrage kullanarak temayı kaydediyoruz. Sitenize bu yöntemle istediğiniz kadar tema ekleyebilirsiniz.
+</p>
+
+<h2> Kapanış</h2>
+<p>
+Kullanıcının tema tercihini de göz önünde bulundurmak istiyorsanız CSS'te olan <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">prefers-color-scheme</a> media query'sini kullanarak varsayılan temayı karanlık/aydınlık olarak ayarlayabilirsiniz. Kolay bir işlem olduğundan bu rehberi daha fazla uzatmak istemiyorum.
+</p>
+<p>
+Benim ilk kodlama rehberimdi ve herhangi bir geri bildiriminiz varsa lütfen bana ulaşın! Okuduğunuz için teşekkürler ve umarım bu rehber size faydalı olmuştur.
+</p>
+
+<h2> Katkıda Bulunanlar</h2>
+<p>
+Yusuf İpek <a href="https://yusufipek.me">website</a>, <a href="https://www.youtube.com/channel/UCVBX2n_5egE9XuJL8NUS0Xg">youtube</a>
+</p>
+</main><p><i>Yazının paylaşıldığı tarih: 01-07-2021 01:24:40, son düzenleme tarihi: 01-07-2021 01:29:57, yazar: Yusuf İpek</i></p>
+<footer>
+    <hr/>
+    <a href=".">ana sayfa</a>
+    <a href="./rss.xml">RSS</a>
+    <a href="./atom.xml">atom</a>
+    <br>
+    <p>Sitedeki bütün içerikler kamu malıdır.</p>
+    <p><small>Kullanılan teknoloji: <a href="https://pedantic.software/git/blogit">blogit</a></small></p>
+    <p><small>Esinlenilen website: <a href="https://based.cooking">based cooking</a></small></p>
+</footer>
+</body></html>

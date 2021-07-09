@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Teknoloji Rehberleri</title>
+<link>http://localhost/blog</link>
+<description>blog</description>
+<item>
+<title># Bir Programın Sesin Yansıtma</title>
+<link>http://localhost/blog/bir-programin-sesini-yansitma.html</link>
+<guid>http://localhost/blog/bir-programin-sesini-yansitma.html</guid>
+<pubDate>Cum, 09 Tem 2021 18:43:21 +0300</pubDate>
+<description>Linux'a yeni geçen arkdaşların sorduğu sorulardan birisi, arkadaşlarımla oyunumun, videomun sesini Discord üzerinden paylaşamıyorum! Nasıl yapabilirim?</description>
+</item>
+<item>
+<title># Websitenize Tema Ekleme</title>
+<link>http://localhost/blog/websitenize-tema-ekleme.html</link>
+<guid>http://localhost/blog/websitenize-tema-ekleme.html</guid>
+<pubDate>Prş, 01 Tem 2021 01:24:40 +0300</pubDate>
+<description>![websitenize-tema-ekleme](pictures/websitenize-tema-ekleme.webp)</description>
+</item>
+</channel>
+</rss>
