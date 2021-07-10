@@ -154,12 +154,10 @@ buraya ise kodu yazıyoruz
 ```
 
 ```md
-Bu bir kod bloğudur
+Bu bir kod bloğu
 ```
-
-![vgy.me](https://i.vgy.me/NqJS9p.png)yazıldığından bu şekilde görünmektedir.
-
-
+![Kod Bloğu](pictures/teknoloji-rehberleri-icin-post-nasil-yazilir-2.webp)
+yazıldığında bu şekilde görünmektedir.
 
 # <div>
 
@@ -185,7 +183,7 @@ tagı ise Markdown'da HTML yazmanızı sağlar.
 
 yapmamız gereken bu repoyu üstten forklamalıyız yani çatallamalıyız.
 
-![vgy.me](https://i.vgy.me/BlxtDA.png)
+![Fork](pictures/teknoloji-rehberleri-icin-post-nasil-yazilir-1.webp)
 
 Fork tuşuna basmalısınız.
 
@@ -195,7 +193,7 @@ Ardından yapmanız gereken sağ üstteki profil fotoğrafınıza basıp **Your 
 
 Sondan önceki adımımız ise repodaki articles klasörünü açtıktan sonra 
 
-![vgy.me](https://i.vgy.me/OtKEol.png)
+![Dosyaları yükle](teknoloji-rehberleri-icin-post-nasil-yazilir-4.webp)
 
 kısmından **Upload files** butonuna basıp oluşturduğunuz markdown dosyasını seçmelisiniz.
 
@@ -203,7 +201,7 @@ kısmından **Upload files** butonuna basıp oluşturduğunuz markdown dosyasın
 
 Son adımımız ise repomuzun **Code** kısmına gelip
 
-![vgy.me](https://i.vgy.me/KF1otN.png)
+![Pull Request aç](teknoloji-rehberleri-icin-post-nasil-yazilir-3.webp)
 
 Contribute tuşuna basarak Open Pull Request dedikten sonra gerekli bölümleri doldurup pull request açtıktan sonra tek yapmamız gereken gönderinin onaylanması kalıyor.
 
