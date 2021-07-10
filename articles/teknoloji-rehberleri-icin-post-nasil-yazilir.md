@@ -193,7 +193,7 @@ Ardından yapmanız gereken sağ üstteki profil fotoğrafınıza basıp **Your 
 
 Sondan önceki adımımız ise repodaki articles klasörünü açtıktan sonra 
 
-![Dosyaları yükle](teknoloji-rehberleri-icin-post-nasil-yazilir-4.webp)
+![Dosyaları yükle](pictures/teknoloji-rehberleri-icin-post-nasil-yazilir-4.webp)
 
 kısmından **Upload files** butonuna basıp oluşturduğunuz markdown dosyasını seçmelisiniz.
 
@@ -201,7 +201,7 @@ kısmından **Upload files** butonuna basıp oluşturduğunuz markdown dosyasın
 
 Son adımımız ise repomuzun **Code** kısmına gelip
 
-![Pull Request aç](teknoloji-rehberleri-icin-post-nasil-yazilir-3.webp)
+![Pull Request aç](pictures/teknoloji-rehberleri-icin-post-nasil-yazilir-3.webp)
 
 Contribute tuşuna basarak Open Pull Request dedikten sonra gerekli bölümleri doldurup pull request açtıktan sonra tek yapmamız gereken gönderinin onaylanması kalıyor.
 
