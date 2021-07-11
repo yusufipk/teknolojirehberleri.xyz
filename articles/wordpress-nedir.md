@@ -4,11 +4,11 @@
 
 ## İskelet
 
-#### Wordpress Nedir?
+- Wordpress Nedir?
 
-#### Wordpress Tarihi
+- Wordpress Tarihi?
 
-#### Wordpress Nasıl Kurulur?
+- Wordpress Nasıl Kurulur?
 
 <br/>
 
@@ -31,7 +31,7 @@ Eklentiler, genellikle Wordpress yazılımının sunmadığı özellikleri sitey
 
 <br/>
 
-## Wordpress Tarihi
+## Wordpress Tarihi?
 Wordpress 2003'te halka açılmış olsada, kökleri taa 2001 yılına kadar uzanmaktadır ve bir proje olarak başlanmıştır. 1997 yılında blog sitelerinin popülerleşmesinden sonra 2001 yılında Wordpress'in kurucuları Matt Mullenweg ile Mike Little geliştirilmeye başladı.
 Wordpress ismini Mullenweg'in arkadaşı olan Christine Selleck tarafından önerilmiştir.
  
