@@ -1,4 +1,4 @@
-# Teknoloji Rehberleri İçin Post Nasıl Yazılır?
+Teknoloji Rehberleri İçin Post Nasıl Yazılır?
 
 ### Teknoloji Rehberleri nedir?
 
@@ -222,3 +222,4 @@ Yazar: Mehmetali345Dev (Matrix: Anakin Skywalker)
 [Github hesabım](https://github.com/Mehmetali345Dev)
 
 
+;tags: markdown github
