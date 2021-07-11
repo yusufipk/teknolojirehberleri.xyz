@@ -2,15 +2,9 @@ Teknoloji Rehberleri İçin Post Nasıl Yazılır?
 
 ## Teknoloji Rehberleri nedir?
 
-Teknoloji rehberleri Yusuf İpek tarafından birden fazla kişinin teknoloji ve Linux hakkında
-
-blog konuları yazması için kurulmuş bir websitedir.
-
-
+Teknoloji rehberleri Yusuf İpek tarafından birden fazla kişinin teknoloji ve Linux hakkında blog konuları yazması için kurulmuş bir websitedir.
 
 [GitHub - yusufipk/teknolojirehberleri.xyz](https://github.com/yusufipk/teknolojirehberleri.xyz)
-
-
 
 ## Teknoloji Rehberleri'nde yazmak için ne gerekir?
 
@@ -20,13 +14,11 @@ blog konuları yazması için kurulmuş bir websitedir.
 
 - Ve fikirleriniz ve düşünceleriniz
 
-
-
 ### Markdown nedir?
 
 Markdown, **John Gruber** ve **Aaron Swartz** tarafından geliştirilmiş ve 2004 yılından bu yana kullanılan bir Markup Language'dir (İşaretleme dili).
 
-- Dosya biçimi `.md` dir.
+- Dosya biçimi **.md**dir.
 
 - İçinde HTML kullanılabilir.
 
@@ -38,7 +30,7 @@ Markdown, **John Gruber** ve **Aaron Swartz** tarafından geliştirilmiş ve 200
 
 [Mark Text](https://marktext.app/)
 
-Mark Tex açık kaynaklı bir markdown editörüdür. Ben markdown yazarken Mark Text kullanmaktayım. Markdown yazmak için en iyi programlardan birisidir. Veya Herhangi bir kod editörüne Markdown eklentisi ekleyip kullanabilirsiniz.
+Mark Text açık kaynaklı bir markdown editörüdür. Ben markdown yazarken Mark Text kullanmaktayım. Markdown yazmak için en iyi programlardan birisidir. Veya Herhangi bir kod editörüne Markdown eklentisi ekleyip kullanabilirsiniz.
 
 # Markdown nasıl yazılır?
 
@@ -66,8 +58,6 @@ Olarak farklı boyutlarda biçimleride vardır.
 #### H4
 
 ##### H5
-
-
 
 ### Linkler
 
