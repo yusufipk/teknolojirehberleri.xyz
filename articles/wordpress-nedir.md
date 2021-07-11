@@ -50,9 +50,35 @@ Ayrıca 2006'da Dünya'nın ilk Wordpress konferansı olan WordCamp düzenlendi 
 
 ## Wordpress Nasıl Kurulur?
 
-Wordpress kurmak için [wordpress.com](https://wordpress.com) adresinden sitenizi kurabilirsiniz, sitenizde reklamlar olacaktır ücretli versiyonuda bulunmaktadır.
+Wordpress kurmak için [wordpress.com](https://wordpress.com) adresine gidebilirsiniz.
 
-Veya kendi domain ve hostinginizin yardımı ile Cpanel veya Plesk Panel aracılığıyla Wordpress yazılımını kurabilirsiniz.
+Ücretsiz versiyon; *<site adı>.wordpress.com* veya *<site adı>.home.blog* subdomainlerinden (alt alan adlarından) birini seçebilirsiniz. Sitenizde Wordpress'in reklamı "Web sitenizi WordPress.com ile oluşturun" olacaktır. 
+
+Ücretli versiyonu; Kişisel aylık 13₺, Premium aylık 25₺, Kurumsal aylık 75₺ ve E-ticaret aylık 125₺ olacak şekilde 4 farklı paket bulunmaktadır.
+
+**cPanel Üzerinden Wordpress Kurulumu** <br/>
+Eğer kendi hostinginiz varsa ve cPanel kuruluysa;
+
+- [Wordpress.org](https://wordpress.org/download/)'tan Wordpress dosyalarını indir.
+- cPanel'inize girin.
+- cPanel'de Dosyalar bölümünden Dosya Yöneticisi'ne gir. 
+- Dosya Yöneticisi bölümünde Public_html bölümüne gir.
+- Public_html'de ki bütün dosyaları silin.
+- Sildikten sonra yükle butonuna basınız.
+- Açılan pencerede ki *"Geçerli Dosyaların Üzerine Yaz"* butonuna tıklayın ve *"Dosya Seç"* butonuna tıklayıp Wordpress.org'tan  indirdiğiniz .zip dosyasını seçin.
+- .zip dosyası indikten sonra, o dosyaya seçerek "Çıkar" butonuna tıklayın "Extract File(s)" seçeneğine tıklayıp .zip klasörünü çıkartın.
+- Dosyalar *"WordPress"* klasörüne çıkacaktır *(:pubic_html/WordPress)* o dosyaya girip tüm dosyaları *"Move File(s)"* butonuna tıklayıp taşıyınız.
+- Ondan sonra ise site domaininize girince karşınıza Wordpress kurulum sihirbazı çıkacaktır. Ekranda ki "Başlayalım!" butonuna tıklayın ve sitenizi kurun.
+
+**Plesk Panel Üzerinden Wordpress Kurulumu** <br/>
+Eğer kendi hostinginiz varsa ve Plesk Panel kuruluysa;
+
+- Plesk Panelinize Girin
+- Plesk Panel ana sayfasında ki *"Wordpress - Kur"* butonuna tıklayın.
+- Açılan pencerede domaininizi belirleyip, Wordpress ayarlarını ve admin *kullanıcı adı* ve *şifresini* belirleyin.
+- Alt kısımda ki *"Veritabanı"* kısmını açıp *"Veritabanı adı"*, *"Kullanıcı Adı"*, *"Şifre"* belirleyin. İsteğinize göre *"Otomatik Güncelleme Ayarını"* açın veya açmayın.
+- Son olarak *"Yükle"* butonuna tıklayın. Siteniz saniyeler içinde kurulmuş olacak!
+
 
 ## Destekçiler
 
