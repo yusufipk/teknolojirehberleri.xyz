@@ -1,6 +1,6 @@
 Teknoloji Rehberleri İçin Post Nasıl Yazılır?
 
-### Teknoloji Rehberleri nedir?
+## Teknoloji Rehberleri nedir?
 
 Teknoloji rehberleri Yusuf İpek tarafından birden fazla kişinin teknoloji ve Linux hakkında
 
@@ -12,7 +12,7 @@ blog konuları yazması için kurulmuş bir websitedir.
 
 
 
-### Teknoloji Rehberleri'nde yazmak için ne gerekir?
+## Teknoloji Rehberleri'nde yazmak için ne gerekir?
 
 - Markdown bilgisi
 
@@ -22,7 +22,7 @@ blog konuları yazması için kurulmuş bir websitedir.
 
 
 
-# Markdown nedir?
+### Markdown nedir?
 
 Markdown, **John Gruber** ve **Aaron Swartz** tarafından geliştirilmiş ve 2004 yılından bu yana kullanılan bir Markup Language'dir (İşaretleme dili).
 
@@ -30,19 +30,15 @@ Markdown, **John Gruber** ve **Aaron Swartz** tarafından geliştirilmiş ve 200
 
 - İçinde HTML kullanılabilir.
 
-# Markdown yazarken gerekenler
+### Markdown yazarken gerekenler
 
 - Bir kod editörü yada markdown yazma yazılımı.
 
 - Sabır (Bazen insanın sinirleri bozulabiliyor)
 
-# [Mark Text](https://marktext.app/)
+[Mark Text](https://marktext.app/)
 
-Mark Tex açık kaynaklı bir markdown editörüdür. Ben markdown yazarken Mark Text kullanmaktayım. Markdown yazmak için en iyi programlardan birisidir.
-
-# Veya
-
-Herhangi bir kod editörüne Markdown eklentisi ekleyip kullanabilirsiniz.
+Mark Tex açık kaynaklı bir markdown editörüdür. Ben markdown yazarken Mark Text kullanmaktayım. Markdown yazmak için en iyi programlardan birisidir. Veya Herhangi bir kod editörüne Markdown eklentisi ekleyip kullanabilirsiniz.
 
 # Markdown nasıl yazılır?
 
@@ -50,7 +46,7 @@ Markdown dili HTML'e işlenir.
 
 ### Heading (Başlıklar)
 
-```md
+```
 # Heading (Başlık)
 
 HTML'deki <h1></h1> etiketine denktir.
@@ -75,7 +71,7 @@ Olarak farklı boyutlarda biçimleride vardır.
 
 ### Linkler
 
-```md
+```
 [Örnek Link](https://duckduckgo.com)
 
 Bu link DuckDuckGo arama motorunun urlsine yönlendirmektedir.
@@ -105,14 +101,12 @@ Resim linkleri ise <img> etiketine denktir.
 
 ### Listeler
 
-```md
+```
 Listeler şu şekilde yazılır
 
 - 1
 - 2
 - 3
-
-
 ```
 
 **Örnek**
@@ -127,41 +121,31 @@ Listeler şu şekilde yazılır
 
 
 
-```md
+```
 > Bu bir alıntı yazımıdır
 ```
 
 > Bu bir alıntıdır
 
-```md
+```
 **Bu bir kalın yazı yazımıdır.**
 ```
 
 **Bu bir kalın yazı**
 
-```md
+```
 *Bu bir italik yazımıdır.*
 ```
 
 *Bu bir italik yazıdır*
 
-```md
-Bu bir kod bloğudur kod bloğu için
-
-```burayakodlamadilini
-buraya ise kodu yazıyoruz
 ```
-```
-
-```md
 Bu bir kod bloğu
 ```
 ![Kod Bloğu](pictures/teknoloji-rehberleri-icin-post-nasil-yazilir-2.webp)
 yazıldığında bu şekilde görünmektedir.
 
-# <div>
-
-tagı ise Markdown'da HTML yazmanızı sağlar.
+`<div>` tagı ise Markdown'da HTML yazmanızı sağlar.
 
 
 
@@ -211,15 +195,10 @@ Contribute tuşuna basarak Open Pull Request dedikten sonra gerekli bölümleri 
 
 İşte yapmanız gereken bu kadar artık parlak fikirlerinizi paylaşabilirsiniz.
 
-
-
 Bu gönderiyi okuduğunuz için teşekkürler...
-
-
 
 Yazar: Mehmetali345Dev (Matrix: Anakin Skywalker)
 
 [Github hesabım](https://github.com/Mehmetali345Dev)
-
 
 ;tags: markdown github
