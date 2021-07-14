@@ -1,4 +1,4 @@
-# Wordpress Nedir Nasıl Kurulur?
+Wordpress Nedir Nasıl Kurulur?
 
 <br/>
 
@@ -84,4 +84,4 @@ Eğer kendi hostinginiz varsa ve Plesk Panel kuruluysa;
 
 Yazar: [@MrGokturk](https://github.com/MrGokturk) **|** Website: [mrgokturk.xyz](https://mrgokturk.xyz)
 
-;tags: wordpress teknolojirehberleri.xyz 
+;tags: wordpress web
