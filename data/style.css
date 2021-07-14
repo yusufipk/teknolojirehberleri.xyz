@@ -86,6 +86,6 @@ code {
 
 @media (min-width: 100em) {
   #artlist {
-    column-count: 3;
+    column-count: 4;
   }
 }

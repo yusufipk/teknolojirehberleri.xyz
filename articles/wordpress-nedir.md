@@ -1,7 +1,5 @@
 Wordpress Nedir Nasıl Kurulur?
 
-<br/>
-
 ## İskelet
 
 - Wordpress Nedir?
@@ -10,29 +8,31 @@ Wordpress Nedir Nasıl Kurulur?
 
 - Wordpress Nasıl Kurulur?
 
-<br/>
-
 ## Wordpress Nedir?
 
-Wordpress'in kökleri 2001 yılına kadar uzanmaktadır ve 2003'te halka açılmıştır. Blog sistemi olarak; PHP ve MySQL kullanılarak yazılmıştır. Wordpress b2/cafelog blog yazılımının forku olarak yaızlmıştır. <br/>
+Wordpress'in kökleri 2001 yılına kadar uzanmaktadır ve 2003'te halka açılmıştır. Blog sistemi olarak; PHP ve MySQL kullanılarak yazılmıştır. Wordpress b2/cafelog blog yazılımının forku olarak yazılmıştır.
 
 Wordpress ilk başlarda blog altyapısı olarak kurulmuş olsada, bugün sadece blog siteleri için değil haber, e-ticaret, kurumsal siteler ve Wordpress'i yazan ekip tarafından eklenti olarak sunulan bbPres eklentisi ile forum sitesi bile kurabilirsiniz.
 
 Ayrıca Wordpress tamamen açık kaynaklı bir yazılımdır. Kaynak kodlarına Wordpress Github sayfasından ulaşabilirsiniz.  [github.com/WordPress/WordPress](https://github.com/WordPress/WordPress)
 
-Wordpress	GNU Genel Kamu Lisansı ile korunmaktadır ve Wordpress'in resmi sitesi [wordpress.org](https://wordpress.org/)'tur. Bugün Wordpress, Dünyada ki internetin 42% gibi büyük bir oranını kapsıyor.
+Wordpress GNU Genel Kamu Lisansı ile korunmaktadır ve Wordpress'in resmi sitesi [wordpress.org](https://wordpress.org/)'tur. Bugün Wordpress, Dünyada ki internetin 42% gibi büyük bir oranını kapsıyor.
 
+### Temalar 
 
-**Temalar** <br/>
 Temalar, sitenin görünümüne giydirilmek üzere yazılmış ücretli ve ücretsiz binlerce teması vardır. Bu temaların bir kısmını yapan Wordpress yapımcılarıdır ve genellikle ücretsizdir (Bu temaları kullanan sitelerin altlarında "Proudly Powered By Wordpress" ibaresi bulunmaktadır). Wordpress yapımcılarının dışında bağımsız farklı yapımcılarda tema yapmaktadır ama genellikle ücrete tabidir, ücretsiz versiyonda temanın ve yapımcının reklamları yer alır. 
 
-**Eklentiler** <br/>
-Eklentiler, genellikle Wordpress yazılımının sunmadığı özellikleri siteye eklemek için yazılmış eklentilerdir. Bugün Wordpress üzerinde 40.000'den fazla eklenti bulunmaktadır. **Örnek Eklentiler**: *Seo eklentileri (arama motoru optimizasyonu), canlı destek, üyelik sistemi* gibi eklentiler bulunmaktadır. Bu eklentiler sizin Wordpress sürümünüze uyumludur yada uyumsuzdur, uyumsuz ise çalışmaz veya eklentinin kendisi bozukta olabilir.
+### Eklentiler
 
-<br/>
+Eklentiler, genellikle Wordpress yazılımının sunmadığı özellikleri siteye eklemek için yazılmış eklentilerdir. Bugün Wordpress üzerinde 40.000'den fazla eklenti bulunmaktadır. 
+
+
+**Örnek Eklentiler**: *Seo eklentileri (arama motoru optimizasyonu), canlı destek, üyelik sistemi* gibi eklentiler bulunmaktadır. Bu eklentiler sizin Wordpress sürümünüze uyumludur yada uyumsuzdur, uyumsuz ise çalışmaz veya eklentinin kendisi bozukta olabilir.
 
 ## Wordpress Tarihi?
+
 Wordpress 2003'te halka açılmış olsada, kökleri taa 2001 yılına kadar uzanmaktadır ve bir proje olarak başlanmıştır. 1997 yılında blog sitelerinin popülerleşmesinden sonra 2001 yılında Wordpress'in kurucuları Matt Mullenweg ile Mike Little geliştirilmeye başladı.
+
 Wordpress ismini Mullenweg'in arkadaşı olan Christine Selleck tarafından önerilmiştir.
  
 2005 yılında tema özelliği eklenen 1.5 sürümü çıkartıldı ve Wordpress'in indirilme sayısi 900.000'i geçti.
@@ -46,8 +46,6 @@ Ayrıca 2006'da Dünya'nın ilk Wordpress konferansı olan WordCamp düzenlendi 
 
 2007 yılında Wordpress düzenli bir sürüm  yayınlama planını ortaya sürdü. Ana sürümlerin ayda 3-4 kez olacak şekilde, yılda 3 defa yayınlanması planlandı. 
 
-<br/>
-
 ## Wordpress Nasıl Kurulur?
 
 Wordpress kurmak için [wordpress.com](https://wordpress.com) adresine gidebilirsiniz.
@@ -56,7 +54,8 @@ Wordpress kurmak için [wordpress.com](https://wordpress.com) adresine gidebilir
 
 Ücretli versiyonu; Kişisel aylık 13₺, Premium aylık 25₺, Kurumsal aylık 75₺ ve E-ticaret aylık 125₺ olacak şekilde 4 farklı paket bulunmaktadır.
 
-**cPanel Üzerinden Wordpress Kurulumu** <br/>
+### cPanel Üzerinden Wordpress Kurulumu
+
 Eğer kendi hostinginiz varsa ve cPanel kuruluysa;
 
 - [Wordpress.org](https://wordpress.org/download/)'tan Wordpress dosyalarını indir.
@@ -70,7 +69,8 @@ Eğer kendi hostinginiz varsa ve cPanel kuruluysa;
 - Dosyalar *"WordPress"* klasörüne çıkacaktır *(:pubic_html/WordPress)* o dosyaya girip tüm dosyaları *"Move File(s)"* butonuna tıklayıp taşıyınız.
 - Ondan sonra ise site domaininize girince karşınıza Wordpress kurulum sihirbazı çıkacaktır. Ekranda ki "Başlayalım!" butonuna tıklayın ve sitenizi kurun.
 
-**Plesk Panel Üzerinden Wordpress Kurulumu** <br/>
+### Plesk Panel Üzerinden Wordpress Kurulumu
+
 Eğer kendi hostinginiz varsa ve Plesk Panel kuruluysa;
 
 - Plesk Panelinize Girin
