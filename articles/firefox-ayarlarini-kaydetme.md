@@ -16,7 +16,7 @@ Firefoxta yaptığım ayarları başka bir firefox tarayıcısına olduğumu gib
 
 ## 3.Açılan klasörden bir üst dizine gidin ve profilinizi kopyalayın.
 
-![jhh](pictures/firefox-ayarlarini-kaydetme3.webp)
+![firefox-profil-kaydetme3.webp](pictures/firefox-ayarlarini-kaydetme3.webp)
 
 ## 4.Profilinizi kopyaladıktan sonra profilinizi aktarmak istediğiniz firefox tarayıcısının profilleri bulundurduğu klasörü bulun ve profilinizi oraya yapıştırın.
 
