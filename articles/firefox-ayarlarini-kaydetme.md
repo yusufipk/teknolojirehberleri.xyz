@@ -4,7 +4,7 @@ Firefoxta yaptığım ayarları başka bir firefox tarayıcısına olduğumu gib
 
 Öncelikle göstereceğim ilk yöntemin çalışabilmesi için kullandığınız firefox ve profilinizi aktaracağınız firefoxun sürümleri aynı olmalı aksi takdirde bu yöntem çalışmayacaktır. Bunun için ise başka bir yöntem göstereceğim.
 
-<center><h1 style="align">Sürümleri Aynı İki Firefoxu Eşitleme</h1></center
+<center><h1>Sürümleri Aynı İki Firefoxu Eşitleme</h1></center
 
 ## 1.İlk önce tarayıcınızın adres çubuğuna `about:profiles` yazın ve enter tuşuna tıklayın.
 
@@ -20,7 +20,7 @@ Firefoxta yaptığım ayarları başka bir firefox tarayıcısına olduğumu gib
 
 ## 4.Profilinizi kopyaladıktan sonra profilinizi aktarmak istediğiniz firefox tarayıcısının profilleri bulundurduğu klasörü bulun ve profilinizi oraya yapıştırın.
 
-<center><h1 style="align">Sürümleri Farklı İki Firefoxu Eşitleme</h1></center
+<center><h1>Sürümleri Farklı İki Firefoxu Eşitleme</h1></center
 
 ## 1. Firefox profil klasörünüze girin ve `prefs.js` dosyasını bulup kopyalayın.
 
