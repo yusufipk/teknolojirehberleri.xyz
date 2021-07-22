@@ -1,4 +1,4 @@
-# Firefox Ayarlarını Kaydetme
+Firefox Ayarlarını Kaydetme
 
 Firefoxta yaptığım ayarları başka bir firefox tarayıcısına olduğumu gibi nasıl aktarırım?
 
