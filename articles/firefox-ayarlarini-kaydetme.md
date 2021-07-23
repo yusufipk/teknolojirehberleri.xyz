@@ -8,7 +8,7 @@ Firefoxta yaptığım ayarları başka bir firefox tarayıcısına olduğumu gib
 
 1. İlk önce tarayıcınızın adres çubuğuna `about:profiles` yazın ve enter tuşuna tıklayın.
 
-![[firefox-profil-kaydetme1.webp] ()](pictures/firefox-ayarlarini-kaydetme1.webp)
+![firefox-profil-kaydetme1.webp](pictures/firefox-ayarlarini-kaydetme1.webp)
 
 2. Çıkan sayfadan varsayılan profili bulup "Kök Klasör" yazan yerdeki "Klasörü aç" butonuna tıklayın.
 
