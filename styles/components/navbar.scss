@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  &_list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+
+    font-size: 2rem;
+    list-style-type: none;
+
+    li:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    &-item {
+      a:visited,
+      a:link {
+        text-decoration: none;
+        color: var(--color-primary);
+      }
+
+      &--active a {
+        color: var(--color-primary);
+        &:after {
+          content: "";
+          display: block;
+          margin: auto;
+          height: 2px;
+          width: 100%;
+          background-color: var(--color-tertiary);
+        }
+      }
+    }
+  }
+}

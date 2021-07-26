@@ -8,11 +8,13 @@
 
 html {
   font-size: 62.5%; // 1 rem = 10px; 10px/16px = 62.5% (16 is default browser font size)
+  font-family: "NunitoSansRegular", sans-serif;
 }
 
 body {
   box-sizing: border-box;
   padding: 3rem;
+  background-color: var(--color-background);
 }
 
 /*
