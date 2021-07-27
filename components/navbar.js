@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <h1>Teknoloji Rehberleri</h1>
+      <h1 className="navbar_logo">Teknoloji Rehberleri</h1>
       <ul className="navbar_list">
         <li
           className={
@@ -25,15 +25,6 @@ function Navbar() {
           }
         >
           <Link href="/hakkinda"> Site Hakkında </Link>
-        </li>
-        <li
-          className={
-            router.asPath == "/yazigonder"
-              ? "navbar_list-item navbar_list-item--active"
-              : "navbar_list-item"
-          }
-        >
-          <Link href="/yazigonder"> Yazı Gönder </Link>
         </li>
       </ul>
     </div>
