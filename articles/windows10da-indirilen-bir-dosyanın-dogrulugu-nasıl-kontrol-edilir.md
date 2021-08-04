@@ -24,6 +24,7 @@ SHA512
 ```
 - Evet sonucumuzu aldık. Şimdi bunu 04.08.2021 tarihindeki Archlinux sitesinden aldığım veri ile karşılaştıralım
 ![cmd](https://i.ibb.co/z5gy8Q2/Screenshot-2021-08-04-at-18-31-21-Arch-Linux-Downloads.png)
+
 Gördüğümüz gibi sonuçlar uyuşmaktadır. Bu da demek oluyor ki indirdiğimiz sunucudaki dosya ile bizim bilgisayarımızdaki dosya aynıdır, orijinaldir.
 
 ### Final
