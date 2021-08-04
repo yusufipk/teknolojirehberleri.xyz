@@ -30,3 +30,5 @@ Gördüğümüz gibi sonuçlar uyuşmaktadır. Bu da demek oluyor ki indirdiğim
 ### Final
 Yazım buraya kadardı. Teşekkür ederim.
 Yazar: Berkin Çetin, [Github](https://github.com/darkao)
+
+;tags: windows checksum 
