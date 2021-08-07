@@ -1,0 +1,20 @@
+.searchbar {
+  align-self: center;
+  min-width: 30%;
+  margin-bottom: 1rem;
+
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  height: 3rem;
+  padding: 2px 2rem;
+  outline: 0;
+  background-color: var(--color-grey);
+
+  transition: all 0.2s;
+
+  &:hover,
+  &:focus {
+    border: 1.5px solid var(--color-tertiary);
+    background-color: var(--color-white);
+  }
+}

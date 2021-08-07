@@ -1,13 +1,15 @@
 .homepage {
-  font-size: 2rem;
-  list-style-type: none;
-  justify-items: center;
-
   display: grid;
   justify-content: center;
+  justify-items: center;
+
+  padding-top: 2rem;
+  font-size: 2rem;
+  list-style-type: none;
 
   &_heading-1 {
     text-align: center;
+    padding-top: 1rem;
   }
 
   &_posts {
