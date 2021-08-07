@@ -1,3 +1,24 @@
 .homepage {
-  height: 90vh;
+  font-size: 2rem;
+  list-style-type: none;
+  justify-items: center;
+
+  display: grid;
+  justify-content: center;
+
+  &_heading-1 {
+    text-align: center;
+  }
+
+  &_posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    min-height: 100vh;
+
+    li {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
 }
