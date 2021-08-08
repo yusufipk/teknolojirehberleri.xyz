@@ -13,10 +13,12 @@ export default function Home({ posts }) {
     <div className="homepage">
       <Searchbar search={search} setSearch={setSearch} />
 
-      <h1 className="homepage_heading-1">Rehberler</h1>
+      <h1 className="heading-1">Rehberler</h1>
       <div className="homepage_posts">
-        {filteredPosts.slice(0, 20).map((post) => (
-          <li key={post.id}>{post.title}</li>
+        {filteredPosts.slice(0, 21).map((post) => (
+          <li key={post.id}>
+            <a href="https://searx.yusufipek.me">{post.title}</a>
+          </li>
         ))}
       </div>
     </div>

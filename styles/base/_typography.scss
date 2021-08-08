@@ -1,11 +1,24 @@
-p,
-li {
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
   color: var(--color-primary);
 }
 
-h1 {
-  font-size: 2.5rem;
+.heading-1 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.heading-2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+}
+
+p,
+li {
   color: var(--color-primary);
+  font-size: 2rem;
 }
 
 a {

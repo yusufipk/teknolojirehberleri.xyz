@@ -9,6 +9,9 @@
   &_logo {
     justify-self: flex-end;
     grid-column: 1;
+    font-size: 2.4rem;
+    color: var(--color-primary);
+    font-weight: normal;
   }
 
   &_list {

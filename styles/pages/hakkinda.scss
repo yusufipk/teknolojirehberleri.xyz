@@ -1,0 +1,16 @@
+.about {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(1, 10rem);
+
+  padding: 2rem;
+
+  min-height: 100vh;
+
+  &_list {
+    margin-left: 3rem;
+    li {
+      margin-top: 1.5rem;
+    }
+  }
+}

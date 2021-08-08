@@ -4,17 +4,16 @@
   justify-items: center;
 
   padding-top: 2rem;
-  font-size: 2rem;
   list-style-type: none;
 
   &_heading-1 {
-    text-align: center;
     padding-top: 1rem;
   }
 
   &_posts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 12rem);
     width: 50%;
     min-height: 100vh;
 
