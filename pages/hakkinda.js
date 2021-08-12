@@ -2,16 +2,14 @@ export default function Hakkinda() {
   return (
     <div className="about">
       <div>
-        <h1 className="heading-1 u-center-text u-margin-bottom-small">
-          Site Hakkında
-        </h1>
+        <h1 className="u-center-text u-margin-bottom-small">Site Hakkında</h1>
         <p>
           Bu websitesinde reklam, izleyici veya çerez yoktur ve herkes rehber
           yazabilir.
         </p>
       </div>
       <div>
-        <h2 className="heading-2">Nasıl Rehber Yazarım?</h2>
+        <h2>Nasıl Rehber Yazarım?</h2>
         <ul className="about_list">
           <li>
             <a href="#">Örnek rehberi</a> indirin ve kuralları okuyun.{" "}

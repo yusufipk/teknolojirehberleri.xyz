@@ -13,7 +13,7 @@ export default function Home({ posts }) {
     <div className="homepage">
       <Searchbar search={search} setSearch={setSearch} />
 
-      <h1 className="heading-1">Rehberler</h1>
+      <h1>Rehberler</h1>
       <div className="homepage_posts">
         {filteredPosts.slice(0, 21).map((post) => (
           <li key={post.id}>

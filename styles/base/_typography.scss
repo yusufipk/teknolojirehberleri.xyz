@@ -1,16 +1,17 @@
-.heading-1,
-.heading-2,
-.heading-3,
-.heading-4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--color-primary);
 }
 
-.heading-1 {
+h1 {
   font-weight: 500;
   font-size: 3rem;
+  text-align: center;
 }
 
-.heading-2 {
+h2 {
   font-size: 2.4rem;
   font-weight: normal;
 }
@@ -39,5 +40,53 @@ a {
   }
   &:hover {
     color: var(--color-primary);
+  }
+}
+
+.markdown {
+  display: grid;
+  grid-template-columns: 60%;
+  justify-content: center;
+  justify-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+
+  &_featuredImage {
+    margin-bottom: 1.5rem !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 2.7rem;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
   }
 }
