@@ -12,6 +12,8 @@
 
   transition: all 0.2s;
 
+  color: var(--color-primary);
+
   &:hover,
   &:focus {
     border: 1.5px solid var(--color-tertiary);

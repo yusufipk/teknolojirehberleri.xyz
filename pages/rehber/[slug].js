@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { createClient } from "contentful";
 import ReactMarkdown from "react-markdown";
 
@@ -8,13 +7,13 @@ export default function PostDetails({ posts }) {
     return (
       <div className="loading">
         <Head>
-          <title> Loading... </title>
+          <title> Yükleniyor... </title>
         </Head>
         <h1 className="heading-1 u-center-text">Yükleniyor...</h1>
       </div>
     );
 
-  const { title, featuredImage, rehber, description } = posts.fields;
+  const { title, rehber, description } = posts.fields;
   return (
     <div className="markdown">
       <Head>
@@ -22,20 +21,7 @@ export default function PostDetails({ posts }) {
         <meta name="description" content={description} />
         <meta property="og:title" content={`${title} - Teknoloji Rehberleri`} />
         <meta property="og:description" content={description} />
-        <meta
-          property="og:image"
-          content={`https:${featuredImage.fields.file.url}`}
-        />
       </Head>
-
-      <Image
-        src={`https:${featuredImage.fields.file.url}`}
-        alt={featuredImage.fields.file.fileName}
-        width={featuredImage.fields.file.details.image.width}
-        height={featuredImage.fields.file.details.image.height}
-        className="markdown_featuredImage"
-      />
-
       <ReactMarkdown>{rehber}</ReactMarkdown>
     </div>
   );

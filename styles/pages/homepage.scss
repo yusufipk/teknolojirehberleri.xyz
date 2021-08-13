@@ -14,11 +14,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 12rem);
-    width: 50%;
+    width: 55%;
     min-height: 100vh;
 
     li {
       margin-top: 2rem;
+      margin-right: 2rem;
       text-align: center;
     }
   }

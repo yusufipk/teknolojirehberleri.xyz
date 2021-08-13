@@ -1,12 +1,14 @@
 import { useState } from "react";
 import Searchbar from "../components/searchbar";
-export default function Home({ posts }) {
+import Link from "next/link";
+
+export default function Home({ rehberler }) {
   const [search, setSearch] = useState("");
   const filteredPosts =
     search.length === 0
-      ? posts
-      : posts.filter((post) =>
-          post.title.toLowerCase().includes(search.toLowerCase())
+      ? rehberler
+      : rehberler.filter((rehber) =>
+          rehber.fields.title.toLowerCase().includes(search.toLowerCase())
         );
 
   return (
@@ -15,9 +17,11 @@ export default function Home({ posts }) {
 
       <h1>Rehberler</h1>
       <div className="homepage_posts">
-        {filteredPosts.slice(0, 21).map((post) => (
-          <li key={post.id}>
-            <a href="https://searx.yusufipek.me">{post.title}</a>
+        {filteredPosts.slice(0, 21).map((rehber) => (
+          <li key={rehber.fields.title}>
+            <Link href={`/rehber/${rehber.fields.slug}`}>
+              {rehber.fields.title}
+            </Link>
           </li>
         ))}
       </div>

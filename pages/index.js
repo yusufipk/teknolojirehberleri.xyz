@@ -1,7 +1,8 @@
+import { createClient } from "contentful";
 import Head from "next/head";
 import Home from "../commons/home";
 
-export default function App({ posts }) {
+export default function App({ rehberler }) {
   return (
     <div>
       <Head>
@@ -12,18 +13,26 @@ export default function App({ posts }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Home posts={posts} />
+      <Home rehberler={rehberler} />
     </div>
   );
 }
 
 export async function getStaticProps() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-  const posts = await res.json();
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  });
+
+  const res = await client.getEntries({
+    content_type: "rehber",
+    order: "-fields.date",
+  });
 
   return {
     props: {
-      posts,
+      rehberler: res.items,
     },
+    revalidate: 10,
   };
 }
