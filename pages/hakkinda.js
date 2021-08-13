@@ -22,7 +22,7 @@ export default function Hakkinda() {
         <h2>Nasıl Rehber Yazarım?</h2>
         <ul className="about_list">
           <li>
-            <a href="https://raw.githubusercontent.com/yusufipk/teknolojirehberleri.xyz/master/%C3%B6rnek.md">
+            <a href="https://raw.githubusercontent.com/yusufipk/teknolojirehberleri.xyz/master/%C3%96RNEK.md">
               Örnek rehbere
             </a>{" "}
             göz atın.{" "}
@@ -36,7 +36,7 @@ export default function Hakkinda() {
           </li>
           <li>
             Başkasının yazısını{" "}
-            <a href="https://github.com/yusufipk/teknolojirehberleri.xyz">
+            <a href="https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler">
               Githubdan
             </a>{" "}
             indirip güncelleme yaptıktan sonra tekrar gönderebilirsiniz.{" "}
