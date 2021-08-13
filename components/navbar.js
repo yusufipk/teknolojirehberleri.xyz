@@ -6,7 +6,9 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <h1 className="navbar_logo">Teknoloji Rehberleri</h1>
+      <h1 className="navbar_logo">
+        <Link href="/">Teknoloji Rehberleri </Link>
+      </h1>
       <ul className="navbar_list">
         <li
           className={

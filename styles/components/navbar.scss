@@ -12,6 +12,12 @@
     font-size: 2.4rem;
     color: var(--color-primary);
     font-weight: normal;
+
+    a {
+      &:after {
+        width: 0%;
+      }
+    }
   }
 
   &_list {
