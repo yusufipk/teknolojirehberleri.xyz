@@ -1,6 +1,16 @@
+import Head from "next/head";
+
 export default function Hakkinda() {
   return (
     <div className="about">
+      <Head>
+        <title>Site Hakkında - Teknoloji Rehberleri</title>
+        <meta
+          name="description"
+          content="Teknoloji rehberleri. Reklam ve izleyici yok!"
+        />
+      </Head>
+
       <div>
         <h1 className="u-center-text u-margin-bottom-small">Site Hakkında</h1>
         <p>
@@ -12,15 +22,24 @@ export default function Hakkinda() {
         <h2>Nasıl Rehber Yazarım?</h2>
         <ul className="about_list">
           <li>
-            <a href="#">Örnek rehberi</a> indirin ve kuralları okuyun.{" "}
+            <a href="https://raw.githubusercontent.com/yusufipk/teknolojirehberleri.xyz/master/%C3%B6rnek.md">
+              Örnek rehbere
+            </a>{" "}
+            göz atın.{" "}
           </li>
           <li>
-            <a href="#"> teknolojirehberleri@protonmail.com</a> adresine
-            markdown dosyanızı gönderin.
+            <a href="mailto:teknolojirehberleri@protonmail.com">
+              {" "}
+              teknolojirehberleri@protonmail.com
+            </a>{" "}
+            adresine markdown dosyanızı gönderin.
           </li>
           <li>
-            Başkasının yazısını sayfadan indirip güncelleme yaptıktan sonra
-            tekrar gönderebilirsiniz.{" "}
+            Başkasının yazısını{" "}
+            <a href="https://github.com/yusufipk/teknolojirehberleri.xyz">
+              Githubdan
+            </a>{" "}
+            indirip güncelleme yaptıktan sonra tekrar gönderebilirsiniz.{" "}
           </li>
           <li>Rehberi yazan/katkı sağlayan kişileri keşfedebilirsiniz!</li>
         </ul>

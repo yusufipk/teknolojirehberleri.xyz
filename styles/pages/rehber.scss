@@ -9,6 +9,7 @@
 .markdown {
   display: grid;
   grid-template-columns: 60%;
+  grid-template-rows: repeat(10, min-content);
   justify-content: center;
   justify-items: center;
   min-height: 100vh;
