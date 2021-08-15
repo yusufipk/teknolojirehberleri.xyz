@@ -98,6 +98,6 @@ ama yapmanız gereken şey`curl url`komutunu başlangiçta çalışmasını sagl
 
 ### SON
 [Github](https://github.com/omerscofield31) yazım yanlışları gibi şeyleri izin istemeden duzeltebilirisiniz.
-Okuyanlara teşekkürler
+Okuyanlara teşekkürler [bu link](https://kutt.it/AqSit5)e tıklayarak okudugunuzu belli edebilirsiniz (malum izleyici yok link ile sadece kişi sayısı alınacaktır zorunlu degildir. [kurallara aykırı ise silinebilir] )
 
 
