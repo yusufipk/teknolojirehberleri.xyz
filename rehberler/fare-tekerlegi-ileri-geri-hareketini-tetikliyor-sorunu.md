@@ -29,3 +29,6 @@ Bu yazı 5elenay tarafından 18 ağustos 2021 tarihinde yazılmıştır.
 ### Kaynaklar
 - [Örnek Resim Alınan Forum Postu](https://forums.virtualbox.org/viewtopic.php?f=4&t=80912)
 - [Stack Exchange Üzerindeki Post](https://unix.stackexchange.com/questions/20550/how-to-disable-the-forward-back-buttons-on-my-mouse)
+
+
+;tags: freebsd fare tekerlek xorg
