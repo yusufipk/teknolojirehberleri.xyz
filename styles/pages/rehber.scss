@@ -82,21 +82,10 @@
     li {
       font-size: 1.7rem;
     }
-
-    pre {
-      code {
-        font-size: 1.2rem;
-      }
-    }
   }
 
   @include media("<smallest") {
     grid-template-columns: 85%;
-    pre {
-      code {
-        font-size: 1rem;
-      }
-    }
   }
 
   h1 {
