@@ -9,6 +9,6 @@ Herkesin teknoloji rehberi yazabildiği bir websitesi. İzleyici, reklam veya ç
 - Rehberiniz başlık ile başlamalıdır.
 - Rehberler size ait olmalıdır.
 - Hazırladığınız md dosyasını [teknolojirehberleri@protonmail.com](mailto:teknolojirehberleri@protonmail.com) adresine gönderin.
-- Veya rehberinizi, [https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler](rehberler) klasörüne ekleyin.
-- Güncellemek istediğiniz bir [https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler](rehberi) indirip, düzenledikten sonra kendi adınızı da ekleyerek paylaşabilirsiniz.
+- Veya rehberinizi, [rehberler](https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler) klasörüne ekleyin.
+- Güncellemek istediğiniz bir [rehberi](https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler) indirip, düzenledikten sonra kendi adınızı da ekleyerek paylaşabilirsiniz.
 - Rehberin sonuna kendi websitenizi veya bağış bağlantınızı koyabilirsiniz. 
