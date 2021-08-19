@@ -42,3 +42,21 @@ a {
     color: var(--color-primary);
   }
 }
+
+code {
+  background-color: #333333;
+  font-size: 1.8rem;
+}
+
+pre {
+  background-color: #333333;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+
+  code {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+  }
+}
