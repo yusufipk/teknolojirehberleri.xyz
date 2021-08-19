@@ -1,0 +1,105 @@
+.loading {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.markdown {
+  display: grid;
+  grid-template-columns: 60%;
+  grid-template-rows: repeat(10, min-content);
+  justify-content: center;
+  justify-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+
+  &_featuredImage {
+    margin-bottom: 1.5rem !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 2.7rem;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    margin: auto;
+    display: block;
+    min-width: 60%;
+    max-width: 60%;
+  }
+
+  @include media("<largest") {
+    img {
+      max-width: 80%;
+      min-width: 80%;
+    }
+  }
+  @include media("<large") {
+    grid-template-columns: 70%;
+  }
+  @include media("<small") {
+    grid-template-columns: 90%;
+    img {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+  @include media("<smaller") {
+    p,
+    li {
+      font-size: 1.7rem;
+    }
+  }
+
+  @include media("<smallest") {
+    grid-template-columns: 85%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 1.9rem;
+  }
+}

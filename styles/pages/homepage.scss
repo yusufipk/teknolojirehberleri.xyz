@@ -1,0 +1,37 @@
+.homepage {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+  padding-top: 2rem;
+  list-style-type: none;
+
+  &_heading-1 {
+    padding-top: 1rem;
+  }
+
+  &_posts {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 12rem);
+    width: 55%;
+
+    li {
+      margin-top: 2rem;
+      margin-right: 2rem;
+      text-align: center;
+    }
+  }
+
+  @include media("<largest") {
+    li {
+      font-size: 1.7rem;
+    }
+  }
+  @include media("<smallest") {
+    li {
+      font-size: 1.5rem;
+    }
+  }
+}

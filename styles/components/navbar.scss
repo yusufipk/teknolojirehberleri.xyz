@@ -1,0 +1,86 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  white-space: nowrap;
+
+  background-color: var(--color-grey);
+  padding: 1.6rem;
+
+  &_logo {
+    justify-self: flex-end;
+    grid-column: 1;
+    font-size: 2.4rem;
+    color: var(--color-primary);
+    font-weight: normal;
+
+    a {
+      &:after {
+        width: 0%;
+      }
+    }
+  }
+
+  &_list {
+    display: flex;
+    grid-column: 5;
+    justify-self: flex-start;
+
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+
+    list-style-type: none;
+
+    li:not(:last-child) {
+      margin-right: 2.5rem;
+    }
+
+    li {
+      font-size: 1.9rem;
+    }
+
+    &-item {
+      a:visited,
+      a:link {
+        text-decoration: none;
+        color: var(--color-primary);
+      }
+
+      &--active a {
+        color: var(--color-primary);
+        &:after {
+          content: "";
+          display: block;
+          margin: auto;
+          height: 2px;
+          width: 100%;
+          background-color: var(--color-tertiary);
+        }
+      }
+    }
+  }
+
+  @include media("<small") {
+    width: 100%;
+    &_logo {
+      font-size: 2rem;
+    }
+
+    &_list {
+      li {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @include media("<smallest") {
+    &_logo {
+      font-size: 1.5rem;
+    }
+
+    &_list {
+      li {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
