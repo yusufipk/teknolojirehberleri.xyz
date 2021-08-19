@@ -35,7 +35,7 @@ export default function Hakkinda() {
             adresine markdown dosyanızı gönderin.
           </li>
           <li>
-            Veya Github'dan{" "}
+            Veya Github&apos;dan{" "}
             <a href="https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler">
               rehberler
             </a>{" "}
@@ -44,7 +44,7 @@ export default function Hakkinda() {
           <li>
             Başkasının yazısını{" "}
             <a href="https://github.com/yusufipk/teknolojirehberleri.xyz/tree/master/rehberler">
-              Github'dan
+              Github&apos;dan
             </a>{" "}
             indirip güncelleme yaptıktan sonra tekrar gönderebilirsiniz.{" "}
           </li>
