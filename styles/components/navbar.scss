@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
+  white-space: nowrap;
 
   background-color: var(--color-grey);
   padding: 1.6rem;
@@ -28,11 +29,14 @@
     margin-top: 0.3rem;
     margin-left: 2rem;
 
-    font-size: 2rem;
     list-style-type: none;
 
     li:not(:last-child) {
       margin-right: 2.5rem;
+    }
+
+    li {
+      font-size: 1.9rem;
     }
 
     &-item {
@@ -52,6 +56,30 @@
           width: 100%;
           background-color: var(--color-tertiary);
         }
+      }
+    }
+  }
+
+  @include media("<small") {
+    width: 100%;
+    &_logo {
+      font-size: 2rem;
+    }
+
+    &_list {
+      li {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @include media("<smallest") {
+    &_logo {
+      font-size: 1.5rem;
+    }
+
+    &_list {
+      li {
+        font-size: 1.1rem;
       }
     }
   }

@@ -22,5 +22,14 @@
         color: var(--color-tertiary);
       }
     }
+
+    @include media("<smaller") {
+      &-main {
+        font-size: 1.7rem;
+      }
+      &-secondary {
+        font-size: 1.3rem;
+      }
+    }
   }
 }

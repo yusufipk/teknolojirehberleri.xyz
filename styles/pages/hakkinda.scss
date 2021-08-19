@@ -1,7 +1,7 @@
 .about {
   display: grid;
   justify-content: center;
-  grid-template-rows: repeat(1, 10rem);
+  grid-template-rows: 10rem;
 
   padding: 2rem;
 
@@ -11,6 +11,17 @@
     margin-left: 3rem;
     li {
       margin-top: 1.5rem;
+    }
+  }
+
+  @include media("<small") {
+    grid-template-rows: 12rem;
+  }
+
+  @include media("<smallest") {
+    p,
+    li {
+      font-size: 1.6rem;
     }
   }
 }
