@@ -17,4 +17,8 @@
 @import "./pages/rehber.scss";
 @import "./pages/404.scss";
 
-@import url("https://fontlibrary.org//face/nunito-sans");
+@font-face {
+  font-family: "NunitoSansRegular";
+  src: url("/fonts/NunitoSansRegular.ttf");
+  font-display: swap;
+}

@@ -12,6 +12,12 @@ export default function App({ rehberler }) {
           content="Teknoloji rehberleri. Reklam ve izleyici yok!"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/fonts/NunitoSansRegular.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <Home rehberler={rehberler} />
     </div>
