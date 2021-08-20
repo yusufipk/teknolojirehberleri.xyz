@@ -27,23 +27,27 @@
   }
 
   h1 {
-    font-size: 3.6rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
-
   h2 {
     font-size: 3rem;
     font-weight: bold;
   }
 
   h3 {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     font-weight: bold;
   }
 
   h4 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
+  }
+
+  p,
+  li {
+    font-size: 2.2rem;
   }
 
   p {
@@ -76,30 +80,5 @@
       max-width: 100%;
       min-width: 100%;
     }
-  }
-  @include media("<smaller") {
-    p,
-    li {
-      font-size: 1.7rem;
-    }
-  }
-
-  @include media("<smallest") {
-    grid-template-columns: 85%;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2.7rem;
-  }
-
-  h3 {
-    font-size: 2.4rem;
-  }
-
-  h4 {
-    font-size: 1.9rem;
   }
 }
