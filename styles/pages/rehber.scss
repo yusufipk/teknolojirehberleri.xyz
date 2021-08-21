@@ -58,11 +58,17 @@
     margin-bottom: 1rem;
   }
 
+  ul,
+  ol {
+    margin-left: 5rem;
+  }
+
   img {
     margin: auto;
     display: block;
     min-width: 60%;
     max-width: 60%;
+    margin-top: 1rem;
   }
 
   @include media("<largest") {
@@ -79,6 +85,18 @@
     img {
       max-width: 100%;
       min-width: 100%;
+    }
+  }
+  @include media("<smaller") {
+    ul,
+    ol {
+      margin-left: 4rem;
+    }
+  }
+  @include media("<smallest") {
+    ul,
+    ol {
+      margin-left: 3rem;
     }
   }
 }
