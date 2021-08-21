@@ -4,8 +4,8 @@ Linux'a yeni geçen arkadaşların sorduğu sorulardan birisi, arkadaşlarımla 
 
 Bugüne kadar bildiğim çözümler sesi yansıttığınızda sizin konuşanızı engelliyordu. Soundux adlı bir program keşfettim ve bu program sayesinde istediğiniz sesi istediğiniz uygulamaya yansıtabiliyor aynı zamanda mikrofonunuz ile konuşmaya devam edebiliyorsunuz!
 
-1. Programı Nasıl Kurarım?
-2. Programın Kullanımı
+1. [Programı Nasıl Kurarım?](#programı-nasıl-kurarım)
+2. [Programın Kullanımı](#programın-kullanımı)
 
 ## Programı Nasıl Kurarım?
 Soundux açık kaynak ve özgür bir yazılım. Windows için de paketleri var. Paket yöneticinizde yoksa [Websitesinden](https://soundux.rocks/) veya [Github sayfasından](https://github.com/Soundux/Soundux) indirebilirsiniz.

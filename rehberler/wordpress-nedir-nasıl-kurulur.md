@@ -2,11 +2,11 @@
 
 ## İskelet
 
-- Wordpress Nedir?
+- [Wordpress Nedir?](#wordpress-nedir)
 
-- Wordpress Tarihi?
+- [Wodrpess Tarihi](#wordpress-tarihi)
 
-- Wordpress Nasıl Kurulur?
+- [Wordpress Nasıl Kurulur?](#wordpress-nasıl-kurulur)
 
 ## Wordpress Nedir?
 
@@ -49,11 +49,11 @@ Ayrıca 2006'da Dünya'nın ilk Wordpress konferansı olan WordCamp düzenlendi 
 
 Wordpress kurmak için [wordpress.com](https://wordpress.com) adresine gidebilirsiniz.
 
-Ücretsiz versiyon; *<site adı>.wordpress.com* veya *<site adı>.home.blog* subdomainlerinden (alt alan adlarından) birini seçebilirsiniz. Sitenizde Wordpress'in reklamı "Web sitenizi WordPress.com ile oluşturun" olacaktır. 
+Ücretsiz versiyon; *siteadı.wordpress.com* veya *siteadı.home.blog* subdomainlerinden (alt alan adlarından) birini seçebilirsiniz. Sitenizde Wordpress'in reklamı "Web sitenizi WordPress.com ile oluşturun" olacaktır. 
 
 Ücretli versiyonu; Kişisel aylık 13₺, Premium aylık 25₺, Kurumsal aylık 75₺ ve E-ticaret aylık 125₺ olacak şekilde 4 farklı paket bulunmaktadır.
 
-### cPanel Üzerinden Wordpress Kurulumu
+### cPanel Üzerinden Wordpress Kurlumu
 
 Eğer kendi hostinginiz varsa ve cPanel kuruluysa;
 
@@ -80,4 +80,4 @@ Eğer kendi hostinginiz varsa ve Plesk Panel kuruluysa;
 
 ## Destekçiler
 
-Yazar: [@MrGokturk](https://github.com/MrGokturk) **|** Website: [mrgokturk.xyz](https://mrgokturk.xyz)
+Yazar: [@MrGokturk](https://github.com/MrGokturk) **|** Website: [mrgokturk.xyz](https://mrgokturk.xyz)u

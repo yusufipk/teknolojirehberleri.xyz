@@ -4,13 +4,13 @@
 
 Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada karanlık tema tercih ediyorum. Peki tema seçeneklerini sitemize nasıl koyarız? Birden fazla temayı sitemizde nasıl yapabiliriz bu rehberde bunu anlatacağım.
 
-1. Ne yapacağız?
-2. Düğmeyi oluşturma
-3. Renk düzenlerini oluşturma
-4. İşlevsellik
-5. Kullanıcının tercihine göre temayı kaydetme
-6. Kapanış
-7. Katkıda bulunanlar
+1. [Ne Yapacağız?](#ne-yapacağız)
+2. [Düğmeyi oluşturma](#düğmeyi-oluşturma)
+3. [Renk düzenlerini oluşturma](#renk-düzenlerini-oluşturma)
+4. [İşlevsellik](#i̇şlevselliği-ekliyoruz)
+5. [Kullanıcının tercihine göre temayı kaydetme](#kullanıcının-tercihine-göre-temayı-kaydetme)
+6. [Kapanış](#kapanış)
+7. [Katkıda bulunanlar](#katkıda-bulunanlar)
 
 ## Ne Yapacağız?
 Örnek olarak projelerimden birisini kullanacağım. Geçtiğimiz haftalarda 3 tane teması olan bir hesap makinesi yaptım.
@@ -105,7 +105,7 @@ function changeTheme() {
     document.body.setAttribute("data-theme", "light");
   } else if (theme3.checked) {
     document.body.setAttribute("data-theme", "purple");
-  } else return;
+  } els return;
 }
 ```
 Şimdi de eventListener eklememiz lazım, yapmasını istediğimiz iki şey var;
@@ -201,4 +201,4 @@ Kullanıcının tema tercihini de göz önünde bulundurmak istiyorsanız CSS'te
 Benim ilk kodlama rehberimdi ve herhangi bir geri bildiriminiz varsa lütfen bana ulaşın! Okuduğunuz için teşekkürler ve umarım bu rehber size faydalı olmuştur.
 
 ## Katkıda Bulunanlar
-Yusuf İpek [website](https://yusufipek.me), [youtube](https://www.youtube.com/channel/UCVBX2n_5egE9XuJL8NUS0Xg)
+Yusuf İpek [website](https://yusufipek.me), [youtube](https://www.youtube.com/channel/UCVBX2n_5egE9XuJL8NUS0Xg)e
