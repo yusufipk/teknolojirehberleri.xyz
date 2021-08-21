@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { createClient } from "contentful";
-import ReactMarkdown from "react-markdown";
 import marked from "marked";
 
 export default function PostDetails({ posts }) {
