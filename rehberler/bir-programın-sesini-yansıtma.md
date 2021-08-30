@@ -12,7 +12,7 @@ Soundux açık kaynak ve özgür bir yazılım. Windows için de paketleri var. 
 
 İndirdikten sonra karşınıza şöyle bir ekran çıkacak.
 
-![bir-programın-sesini-yansıtma](https://i.postimg.cc/P5KvLKMr/bir-program-n-sesini-yans-tma.png)
+![bir-programın-sesini-yansıtma](https://i.ibb.co/r774z5B/bir-program-n-sesini-yans-tma.png)
 
 ## Programın Kullanımı
 
@@ -20,7 +20,7 @@ Sağ üst tarafta yazan **output application** kısmından sesi aktarmak istedi�
 
 Daha sonrasında aşağıda yazan **passthrough** butonuna tıklayacaksınız. Tıkladığınız anda sol tarafta bir menü belirecek.
 
-![bir-programın-sesini-yansıtma-01](https://i.postimg.cc/5NBCJfYz/bir-program-n-sesini-yans-tma-01.png)
+![bir-programın-sesini-yansıtma-01](https://i.ibb.co/RpvKBj3/bir-program-n-sesini-yans-tma-01.png)
 
 Sesini aktarmak istediğiniz programı buradan seçebilirsiniz. Örnek resimde Firefox'u görüyorsunuz.
 

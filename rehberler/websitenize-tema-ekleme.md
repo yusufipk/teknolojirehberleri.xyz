@@ -1,6 +1,6 @@
 # Websitenize Tema Ekleme
 
-![websitenize-tema-ekleme](https://i.postimg.cc/X7SCtrJ3/websitenize-tema-ekleme.webp)
+![websitenize-tema-ekleme](https://i.ibb.co/KWG1jDK/websitenize-tema-ekleme.webp)
 
 Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada karanlık tema tercih ediyorum. Peki tema seçeneklerini sitemize nasıl koyarız? Birden fazla temayı sitemizde nasıl yapabiliriz bu rehberde bunu anlatacağım.
 
@@ -17,7 +17,7 @@ Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada 
 
 [kod](https://github.com/yusufipk/another-calculator) | [canlı demo](https://yusufipk.github.io/another-calculator/)
 
-![websitenize-tema-ekleme-01](https://i.postimg.cc/SxmzNHCv/websitenize-tema-ekleme-01.webp)
+![websitenize-tema-ekleme-01](https://i.ibb.co/jRXBw4H/websitenize-tema-ekleme-01.webp)
 
 Gördüğünüz gibi düğmemiz var ve bu düğmeyle 3 tema arasında seçim yapabiliyoruz.
 
@@ -105,8 +105,8 @@ function changeTheme() {
     document.body.setAttribute("data-theme", "light");
   } else if (theme3.checked) {
     document.body.setAttribute("data-theme", "purple");
-  } els return;
-}
+  } else return;
+
 ```
 Şimdi de eventListener eklememiz lazım, yapmasını istediğimiz iki şey var;
 
@@ -201,4 +201,4 @@ Kullanıcının tema tercihini de göz önünde bulundurmak istiyorsanız CSS'te
 Benim ilk kodlama rehberimdi ve herhangi bir geri bildiriminiz varsa lütfen bana ulaşın! Okuduğunuz için teşekkürler ve umarım bu rehber size faydalı olmuştur.
 
 ## Katkıda Bulunanlar
-Yusuf İpek [website](https://yusufipek.me), [youtube](https://www.youtube.com/channel/UCVBX2n_5egE9XuJL8NUS0Xg)e
+Yusuf İpek [website](https://yusufipek.me), [youtube](https://www.youtube.com/channel/UCVBX2n_5egE9XuJL8NUS0Xg)

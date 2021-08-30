@@ -8,15 +8,15 @@ Firefoxta yaptığım ayarları başka bir firefox tarayıcısına olduğumu gib
 
 1. İlk önce tarayıcınızın adres çubuğuna `about:profiles` yazın ve enter tuşuna tıklayın.
 
-![firefox-profil-kaydetme1.webp](https://i.postimg.cc/mDP9WMCZ/firefox-ayarlarini-kaydetme1.jpg)
+![firefox-profil-kaydetme1.webp](https://i.ibb.co/47CRKw4/firefox-ayarlarini-kaydetme1.jpg)
 
 2. Çıkan sayfadan varsayılan profili bulup "Kök Klasör" yazan yerdeki "Klasörü aç" butonuna tıklayın.
 
-![firefox-profil-kaydetme2.webp](https://i.postimg.cc/7LszRXCQ/firefox-ayarlarini-kaydetme2.png)
+![firefox-profil-kaydetme2.webp](https://i.ibb.co/DQY8CYb/firefox-ayarlarini-kaydetme2.png)
 
 3. Açılan klasörden bir üst dizine gidin ve profilinizi kopyalayın.
 
-![firefox-profil-kaydetme3.webp](https://i.postimg.cc/PqrZK0qw/firefox-ayarlarini-kaydetme3.jpg)
+![firefox-profil-kaydetme3.webp](https://i.ibb.co/KjttrGG/firefox-ayarlarini-kaydetme3.jpg)
 
 4. Profilinizi kopyaladıktan sonra profilinizi aktarmak istediğiniz firefox tarayıcısının profilleri bulundurduğu klasörü bulun ve profilinizi oraya yapıştırın.
 
