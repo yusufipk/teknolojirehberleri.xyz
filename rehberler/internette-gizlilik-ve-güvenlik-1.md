@@ -7,23 +7,23 @@ Kapitalizmin ele geçirdiği teknoloji çağında maalesef şirketler sizin veri
 Bu makalade sizlere internette daha gizli ve güvenli olmanızı sağlayacak özgür yazılımları önereceğiz. Gizlilik ve güvenlik önemlidir!
 
 ## İçerik Tablosu
-1. [İşletim Sistemi](#işletim-sistemi)
-	1. [Mobil](tercih-edilebilecek-mobil-işletim-sistemleri)
-	2. [Kullanıcı Dostu Masaüstü Sistemleri](tercih-edilebilecek-kullanıcı-dostu-masaüstü-işletim-sistemleri)
-	3. [Gelişmiş Masaüstü Sistemleri](tercih-edilebilecek-gelişmiş-masaüstü-işletim-sistemleri)
-	3. [Tor Ağı Kullanan Sistemler](tor-ağı-kullanan-gnu/linux-dağıtımları)
-2. [Servis Sağlayıcıları](#servis-sağlayıcıları)
-	1. [Arama Motorları](#arama-motorları)
-	2. [E-posta](#e-posta)
-	3. [DNS](#dns)
-	4. [VPN](#vpn)
-	5. [Mesajlaşma](#mesajlaşma)
-3. [Tarayıcılar](#tarayıcılar)
-4. [Çift Faktörlü Doğrulama](#2fa)
-5. [Şifre Yöneticileri](#şifre-yöneticileri)
-6. [Tarayıcı Eklentileri](#tarayıcı-eklentileri)
-7. [Kameranızı Yazılımsal Olarak Kapatın](#tarayıcı-eklentileri)
-8. [Destek](#tarayıcı-eklentileri)
+1. [İşletim Sistemi](#1-i̇şletim-sistemi)
+	- [Mobil](#tercih-edilebilecek-mobil-i̇şletim-sistemleri)
+	- [Kullanıcı Dostu Masaüstü Sistemleri](#tercih-edilebilecek-kullanıcı-dostu-masaüstü-i̇şletim-sistemleri)
+	- [Gelişmiş Masaüstü Sistemleri](#tercih-edilebilecek-gelişmiş-masaüstü-i̇şletim-sistemleri)
+	- [Tor Ağı Kullanan Sistemler](#tor-ağı-kullanan-gnulinux-dağıtımları)
+2. [Servis Sağlayıcıları](#2-servis-sağlayıcıları)
+	- [Arama Motorları](#a-arama-motorları)
+	- [E-posta](#b-e-posta)
+	- [DNS](#c-dns)
+	- [VPN](#d-vpn)
+	- [Mesajlaşma](#e-mesajlaşma)
+3. [Tarayıcılar](#3-tarayıcılar)
+4. [Çift Faktörlü Doğrulama](#4-2fa)
+5. [Şifre Yöneticileri](#5-şifre-yöneticileri)
+6. [Tarayıcı Eklentileri](#6-tarayıcı-eklentileri)
+7. [Kameranızı Yazılımsal Olarak Kapatın](#7-kameranızı-yazılımsal-olarak-kapatm)
+8. [Destek](#destek)
 
 
 ---
@@ -90,7 +90,7 @@ Servis sağlayıcıları internetin büyük bir bölümünü oluşturmakla berab
 ---
 
 1. [Protonmail](https://protonmail.com) - Ücretsiz, uçtan uca şifreleme kullanan bir mail servisi. 
-2. [Tuttanota](https://tutanota.com/) - Ücretsiz uçtan uca şifreleme kullanan bir mail servisi.
+2. [Tutanota](https://tutanota.com/) - Ücretsiz uçtan uca şifreleme kullanan bir mail servisi.
 
 **[Uçtan uca şifreleme](https://tr.wikipedia.org/wiki/U%C3%A7tan_uca_%C5%9Fifreleme) verinizin başka bir bilgisayarda (sunucuda) olmasına rağmen fiziksel erişimi olan kişilerce bile verinize erişilememesini sağlayan şifreleme sistemi.**
 
