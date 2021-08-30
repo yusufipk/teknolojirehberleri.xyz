@@ -102,6 +102,7 @@ DNS, internette girdiğiniz websitelerinin IP adreslerini söyleyen bir kitapdı
 1. [1.1.1.1](https://1.1.1.1) - Dünyadaki en hızlı dns sağlayıcısıdır. Gizliliğinizi arttırmakla beraber hızınızıda arttırır.
 2. [Adguard DNS](https://adguard.com/en/adguard-dns/overview.html) - Reklamları engelleyebilen, Kıbrsıta bulunan DNS servisi.
 3. [QUAD9](https://quad9.net/) Sunucuları İsviçre'de olan ve zararlı yazılımları engelleyen bir DNS servisi.
+4. [NextDNS](https://nextdns.io/) Gizlilik odaklı bir DNS servisi.
 
 **Kullandığınız DNS servisini mutlaka [DNS-Over-HTTPS](https://youtu.be/kxZ9EO1Cbog) ile kullanmanızı tavsiye ederiz.**
 
@@ -171,11 +172,14 @@ Mesajlaşırken eğer bağlantı şifreli değil ise aradaki herhangi biri veya 
 
 # 6. Tarayıcı eklentileri
 
-1. [Noscript](https://noscript.net/) - Javascripti engeller. Sayfalar daha hızlı açılır ve izleyiciler manuel olarak engellenebilir.
-2. [Ublock Origin](https://en.wikipedia.org/wiki/UBlock_Origin) - En iyi reklam ve izleyici engelleyici. Bir çok sahipli adblock yazılımı uBlock'un kaynak kodu üstünden kurulmuştur!
-3. [Terms of service; Didn't read](https://tosdr.org/) - Websitelerinin kullanıcı sözleşmesi ve gizlilik politikasını anlamanızı sağlayan bir eklenti. 
-4. [Cookie Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - Seçtiğiniz websiteler dışındaki çerezleri otomatik olarak silen eklenti.
-
+1. [Noscript](https://addons.mozilla.org/tr/firefox/addon/noscript/) - Javascripti engeller. Sayfalar daha hızlı açılır ve izleyiciler manuel olarak engellenebilir.
+2. [Ublock Origin](https://addons.mozilla.org/tr/firefox/addon/ublock-origin/) - En iyi reklam ve izleyici engelleyici. Bir çok sahipli adblock yazılımı uBlock'un kaynak kodu üstünden kurulmuştur!
+3. [Terms of Service; Didn’t Read](https://addons.mozilla.org/tr/firefox/addon/terms-of-service-didnt-read/) - Websitelerinin kullanıcı sözleşmesi ve gizlilik politikasını anlamanızı sağlayan bir eklenti. 
+4. [Cookie Auto-Delete](https://addons.mozilla.org/tr/firefox/addon/cookie-autodelete/) - Seçtiğiniz websiteler dışındaki çerezleri otomatik olarak silen eklenti.
+5. [CanvasBlocker](https://addons.mozilla.org/tr/firefox/addon/canvasblocker/) - Websitelerin parmak izinizi almak için kullandığı bazı javascript API'lerini engellemeye olanak tanır.
+6. [ClearURLs](https://addons.mozilla.org/tr/firefox/addon/clearurls/) - internette gezinirken gizliliğinizin korunmasına yardımcı olmak için izleme öğelerini URL'lerden otomatik olarak kaldıracaktır.
+7. [Decentraleyes](https://addons.mozilla.org/tr/firefox/addon/decentraleyes/) - Sizi içerik dağıtımıyla yapılan merkezi ve "ücretsiz" takipten korur.
+8. [uMatrix](https://addons.mozilla.org/tr/firefox/addon/umatrix/) - Web sitelerinde bulunan pek çok özelliği (çerez,css,resim,medya,javascript,XHR,iframe) açıp kapatmanızı sağlayan bir eklenti
 
 # 7. Kameranızı Yazılımsal Olarak Kapatm
 
