@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--color-grey);
+  padding: 1.6rem;
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    &-main {
+      font-size: 2rem;
+    }
+
+    &-secondary {
+      font-size: 1.6rem;
+
+      a {
+        color: var(--color-tertiary);
+        margin-right: 0.5rem;
+      }
+    }
+
+    @include media("<smaller") {
+      &-main {
+        font-size: 1.7rem;
+      }
+      &-secondary {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

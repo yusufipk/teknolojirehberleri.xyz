@@ -1,0 +1,24 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/functions";
+@import "./abstracts/include-media";
+
+@import "./base/animations";
+@import "./base/typography";
+@import "./base/base";
+@import "./base/utilities";
+
+@import "./components/navbar";
+@import "./components/footer";
+@import "./components/searchbar";
+
+@import "./pages/homepage.scss";
+@import "./pages/hakkinda.scss";
+@import "./pages/rehber.scss";
+@import "./pages/404.scss";
+
+@font-face {
+  font-family: "NunitoSansRegular";
+  src: url("/fonts/NunitoSansRegular.ttf");
+  font-display: swap;
+}

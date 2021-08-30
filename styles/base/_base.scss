@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1 rem = 10px; 10px/16px = 62.5% (16 is default browser font size)
+  font-family: "NunitoSansRegular", sans-serif;
+
+  @include media("<small") {
+    font-size: 50%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--color-background);
+}
+
+/*
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+*/
