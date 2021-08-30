@@ -8,9 +8,9 @@
 
 # 1- İşletim sistemi
 
-### Gizlilik ve güvenlik için işletim sistemini iyi seçmek gerekir. Bİlgisayarınızı veya laptopnunu satın aldığınızda varsayılan olan gelen işletim sistemleri çoğu zaman verilerinizi toplamakla beraber güvenliğinizide düşürmektedir.
+### Gizlilik ve güvenlik için işletim sistemini iyi seçmek gerekir. Bİlgisayarınızı veya laptopunuzu satın aldığınızda varsayılan olan gelen işletim sistemleri çoğu zaman verilerinizi toplamakla beraber güvenliğinizide düşürmektedir.
 
-## Tercih edilebilicek mobil işletim sistemleri:
+## Tercih edilebilecek mobil işletim sistemleri:
 
 Calyx os (AOSP)
 
@@ -20,13 +20,13 @@ LineageOS (AOSP)
 
 AOSP: Android açık kaynak projesi (Android open source project)
 
-## Tercih edilebilicek basit  masaüstü işletim sistemleri:
+## Tercih edilebilecek basit  masaüstü işletim sistemleri:
 
 Fedora Workstation (GNU/LINUX)
 
 Ubuntu (GNU/LINUX)
 
-## Tercih edilebilicek gelişmiş masaüstü işletim sistemleri:
+## Tercih edilebilecek gelişmiş masaüstü işletim sistemleri:
 
 Alpine Linux (GNU/LINUX)
 
@@ -130,7 +130,7 @@ Android: [FreeOTP](https://freeotp.github.io/) ,[Aegis](https://play.google.com/
 
 # Kameralarınızı hem fiziksel hemde işletim sisteminiz üzerinden kapatın!
 
-Siz istemeseniz bile bazen bazı zararlı yazılımlar mikrafon veya kameranıza erişim sağlayabilir. Bundan kurtulmak için ya kameranızı tamamen sökün, Veya Kameranızı bir kağıt parçasıyla kapatın. Ve Linux üzerinden sürücülerini devre dışı bırakın. 
+Siz istemeseniz bile bazen bazı zararlı yazılımlar mikrofon veya kameranıza erişim sağlayabilir. Bundan kurtulmak için ya kameranızı tamamen sökün, Veya Kameranızı bir kağıt parçasıyla kapatın. Ve Linux üzerinden sürücülerini devre dışı bırakın. 
 
 Sürücüleri devre dışı bırakmak için:
 
@@ -156,7 +156,7 @@ Telefon içinse bazı aparatlar satın alabilirsiniz.
 
 # Şifre yöneticisi
 
-Şifre yöneticileri sizin için rastgele uzun ve karmaşık şifreler üretip saklarlar. Böylece heryerde aynı şifreyi kullanma derdindende, Şifreyi unutma derdindende kurtulmuş olursunuz.
+Şifre yöneticileri sizin için rastgele uzun ve karmaşık şifreler üretip saklarlar. Böylece heryerde aynı şifreyi kullanma derdinden de, Şifreyi unutma derdinden de kurtulmuş olursunuz.
 
 Önerilen şifre yöneticileri:
 
