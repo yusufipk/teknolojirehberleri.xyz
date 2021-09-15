@@ -1,19 +1,20 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
+  font-family: "NunitoSansSemiBold";
   color: var(--color-primary);
 }
 
 h1 {
-  font-weight: 500;
   font-size: 3rem;
   text-align: center;
 }
 
 h2 {
   font-size: 2.4rem;
-  font-weight: normal;
 }
 
 p,
@@ -45,7 +46,7 @@ a {
 
 code {
   background-color: black;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 pre {
@@ -54,8 +55,8 @@ pre {
   border-radius: 1rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-
   white-space: pre-wrap;
+  word-break: break-word;
 
   code {
     color: var(--color-primary);
