@@ -5,7 +5,7 @@ h4,
 h5,
 h6 {
   font-family: "NunitoSansSemiBold";
-  color: var(--color-primary);
+  color: hsl(34, 10%, 71%);
 }
 
 h1 {
@@ -19,7 +19,7 @@ h2 {
 
 p,
 li {
-  color: var(--color-primary);
+  color: rgb(189, 183, 175);
   font-size: 2rem;
 }
 
@@ -45,12 +45,13 @@ a {
 }
 
 code {
-  background-color: black;
+  background-color: #383838;
+  line-height: 2;
   font-size: 1.6rem;
 }
 
 pre {
-  background-color: black;
+  background-color: #383838;
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1.5rem;
@@ -59,7 +60,7 @@ pre {
   word-break: break-word;
 
   code {
-    color: var(--color-primary);
+    color: hsl(34, 10%, 71%);
     font-size: 1.5rem;
   }
 }

@@ -24,7 +24,7 @@
   }
 
   a {
-    color: coral;
+    color: hsl(14, 19%, 61%);
   }
 
   h1,
@@ -50,14 +50,15 @@
   }
 
   p {
-    font-family: "NunitoSansLight";
-    line-height: 160%;
-    font-size: 2rem;
+    font-family: "DroidSans";
+    line-height: 2;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    letter-spacing: 0.1px;
   }
 
   li {
-    margin-bottom: 1rem;
+    font-family: "DroidSans";
   }
 
   ul,

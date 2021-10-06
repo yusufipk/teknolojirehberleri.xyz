@@ -11,9 +11,10 @@
     justify-self: flex-end;
     grid-column: 1;
     font-size: 2.4rem;
-    color: var(--color-primary);
+    color: var(--color-grey-light-1);
 
     a {
+      color: var(--color-grey-light-1);
       &:after {
         width: 0%;
       }
