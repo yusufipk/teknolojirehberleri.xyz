@@ -1,24 +1,25 @@
 h1,
 h2,
 h3,
-h4 {
-  color: var(--color-primary);
+h4,
+h5,
+h6 {
+  font-family: "NunitoSansSemiBold";
+  color: hsl(34, 10%, 71%);
 }
 
 h1 {
-  font-weight: 500;
   font-size: 3rem;
   text-align: center;
 }
 
 h2 {
   font-size: 2.4rem;
-  font-weight: normal;
 }
 
 p,
 li {
-  color: var(--color-primary);
+  color: rgb(189, 183, 175);
   font-size: 2rem;
 }
 
@@ -44,21 +45,22 @@ a {
 }
 
 code {
-  background-color: #333333;
-  font-size: 1.8rem;
+  background-color: #383838;
+  line-height: 2;
+  font-size: 1.6rem;
 }
 
 pre {
-  background-color: #333333;
+  background-color: #383838;
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-
   white-space: pre-wrap;
+  word-break: break-word;
 
   code {
-    color: var(--color-primary);
+    color: hsl(34, 10%, 71%);
     font-size: 1.5rem;
   }
 }

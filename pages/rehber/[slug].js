@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { createClient } from "contentful";
-import ReactMarkdown from "react-markdown";
+import marked from "marked";
 
 export default function PostDetails({ posts }) {
   if (!posts)
@@ -14,6 +14,10 @@ export default function PostDetails({ posts }) {
     );
 
   const { title, rehber, description } = posts.fields;
+  function createMarkup() {
+    return { __html: marked(rehber) };
+  }
+
   return (
     <div className="markdown">
       <Head>
@@ -22,7 +26,7 @@ export default function PostDetails({ posts }) {
         <meta property="og:title" content={`${title} - Teknoloji Rehberleri`} />
         <meta property="og:description" content={description} />
       </Head>
-      <ReactMarkdown>{rehber}</ReactMarkdown>
+      <div dangerouslySetInnerHTML={createMarkup()} />
     </div>
   );
 }

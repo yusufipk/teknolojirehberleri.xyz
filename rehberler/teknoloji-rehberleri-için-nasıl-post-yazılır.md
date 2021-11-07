@@ -128,7 +128,7 @@ Listeler şu şekilde yazılır
 ```
 Bu bir kod bloğu
 ```
-![Kod Bloğu](https://i.postimg.cc/d1gys1j2/teknoloji-rehberleri-icin-post-nasil-yazilir-2.webp)
+![Kod Bloğu](https://i.ibb.co/LCmys3R/teknoloji-rehberleri-icin-post-nasil-yazilir-2.webp)
 yazıldığında bu şekilde görünmektedir.
 
 `<div>` tagı ise Markdown'da HTML yazmanızı sağlar.
@@ -147,7 +147,7 @@ yazıldığında bu şekilde görünmektedir.
 
 yapmamız gereken bu repoyu üstten forklamalıyız yani çatallamalıyız.
 
-![Fork](https://i.postimg.cc/t4zW399b/teknoloji-rehberleri-icin-post-nasil-yazilir-1.webp)
+![Fork](https://i.ibb.co/hybNcML/teknoloji-rehberleri-icin-post-nasil-yazilir-1.webp)
 
 Fork tuşuna basmalısınız.
 
@@ -155,13 +155,13 @@ Ardından yapmanız gereken sağ üstteki profil fotoğrafınıza basıp **Your 
 
 Sondan önceki adımımız ise repodaki articles klasörünü açtıktan sonra 
 
-![Dosyaları yükle](https://i.postimg.cc/gc6hMVGN/teknoloji-rehberleri-icin-post-nasil-yazilir-4.webp)
+![Dosyaları yükle](https://i.ibb.co/YDrktzt/teknoloji-rehberleri-icin-post-nasil-yazilir-4.webp)
 
 kısmından **Upload files** butonuna basıp oluşturduğunuz markdown dosyasını seçmelisiniz.
 
 Son adımımız ise repomuzun **Code** kısmına gelip
 
-![Pull Request aç](https://i.postimg.cc/6qRGyXMD/teknoloji-rehberleri-icin-post-nasil-yazilir-3.webp)
+![Pull Request aç](https://i.ibb.co/RQwGpq1/teknoloji-rehberleri-icin-post-nasil-yazilir-3.webp)
 
 Contribute tuşuna basarak Open Pull Request dedikten sonra gerekli bölümleri doldurup pull request açtıktan sonra tek yapmamız gereken gönderinin onaylanması kalıyor.
 

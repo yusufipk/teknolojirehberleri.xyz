@@ -19,6 +19,14 @@
     margin-bottom: 1.5rem !important;
   }
 
+  hr {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: hsl(14, 19%, 61%);
+  }
+
   h1,
   h2,
   h3,
@@ -27,31 +35,35 @@
   }
 
   h1 {
-    font-size: 3.6rem;
-    font-weight: bold;
+    font-size: 3.5rem;
   }
-
   h2 {
     font-size: 3rem;
-    font-weight: bold;
   }
 
   h3 {
-    font-size: 2.7rem;
-    font-weight: bold;
+    font-size: 2.6rem;
   }
 
   h4 {
-    font-size: 2.2rem;
-    font-weight: bold;
+    font-size: 2.4rem;
   }
 
   p {
+    font-family: "DroidSans";
+    line-height: 2;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    letter-spacing: 0.1px;
   }
 
   li {
-    margin-bottom: 1rem;
+    font-family: "DroidSans";
+  }
+
+  ul,
+  ol {
+    margin-left: 5rem;
   }
 
   img {
@@ -59,6 +71,7 @@
     display: block;
     min-width: 60%;
     max-width: 60%;
+    margin-top: 1rem;
   }
 
   @include media("<largest") {
@@ -72,34 +85,26 @@
   }
   @include media("<small") {
     grid-template-columns: 90%;
+
+    p {
+      font-size: 2.2rem;
+    }
+
     img {
       max-width: 100%;
       min-width: 100%;
     }
   }
   @include media("<smaller") {
-    p,
-    li {
-      font-size: 1.7rem;
+    ul,
+    ol {
+      margin-left: 4rem;
     }
   }
-
   @include media("<smallest") {
-    grid-template-columns: 85%;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2.7rem;
-  }
-
-  h3 {
-    font-size: 2.4rem;
-  }
-
-  h4 {
-    font-size: 1.9rem;
+    ul,
+    ol {
+      margin-left: 3rem;
+    }
   }
 }

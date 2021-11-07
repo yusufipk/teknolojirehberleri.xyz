@@ -6,7 +6,13 @@ function Footer() {
           Sitedeki bütün içerikler kamu malıdır.
         </p>
         <p className="footer_text-secondary">
-          Esinlenilen website{" "}
+          <a
+            href="https://teknolojirehberleri.xyz/rss"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RSS
+          </a>{" "}
           <a
             href="https://based.cooking"
             target="_blank"

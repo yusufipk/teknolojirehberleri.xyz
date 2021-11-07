@@ -1,23 +1,23 @@
 # Websitenize Tema Ekleme
 
-![websitenize-tema-ekleme](https://i.postimg.cc/X7SCtrJ3/websitenize-tema-ekleme.webp)
+![websitenize-tema-ekleme](https://i.ibb.co/KWG1jDK/websitenize-tema-ekleme.webp)
 
 Karanlık temalara bayılıyorum. Kullandığım her websitesinde ve uygulamada karanlık tema tercih ediyorum. Peki tema seçeneklerini sitemize nasıl koyarız? Birden fazla temayı sitemizde nasıl yapabiliriz bu rehberde bunu anlatacağım.
 
-1. Ne yapacağız?
-2. Düğmeyi oluşturma
-3. Renk düzenlerini oluşturma
-4. İşlevsellik
-5. Kullanıcının tercihine göre temayı kaydetme
-6. Kapanış
-7. Katkıda bulunanlar
+1. [Ne Yapacağız?](#ne-yapacağız)
+2. [Düğmeyi oluşturma](#düğmeyi-oluşturma)
+3. [Renk düzenlerini oluşturma](#renk-düzenlerini-oluşturma)
+4. [İşlevsellik](#i̇şlevselliği-ekliyoruz)
+5. [Kullanıcının tercihine göre temayı kaydetme](#kullanıcının-tercihine-göre-temayı-kaydetme)
+6. [Kapanış](#kapanış)
+7. [Katkıda bulunanlar](#katkıda-bulunanlar)
 
 ## Ne Yapacağız?
 Örnek olarak projelerimden birisini kullanacağım. Geçtiğimiz haftalarda 3 tane teması olan bir hesap makinesi yaptım.
 
 [kod](https://github.com/yusufipk/another-calculator) | [canlı demo](https://yusufipk.github.io/another-calculator/)
 
-![websitenize-tema-ekleme-01](https://i.postimg.cc/SxmzNHCv/websitenize-tema-ekleme-01.webp)
+![websitenize-tema-ekleme-01](https://i.ibb.co/jRXBw4H/websitenize-tema-ekleme-01.webp)
 
 Gördüğünüz gibi düğmemiz var ve bu düğmeyle 3 tema arasında seçim yapabiliyoruz.
 
@@ -106,7 +106,7 @@ function changeTheme() {
   } else if (theme3.checked) {
     document.body.setAttribute("data-theme", "purple");
   } else return;
-}
+
 ```
 Şimdi de eventListener eklememiz lazım, yapmasını istediğimiz iki şey var;
 

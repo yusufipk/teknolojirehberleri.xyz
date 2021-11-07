@@ -4,15 +4,15 @@ Linux'a yeni geçen arkadaşların sorduğu sorulardan birisi, arkadaşlarımla 
 
 Bugüne kadar bildiğim çözümler sesi yansıttığınızda sizin konuşanızı engelliyordu. Soundux adlı bir program keşfettim ve bu program sayesinde istediğiniz sesi istediğiniz uygulamaya yansıtabiliyor aynı zamanda mikrofonunuz ile konuşmaya devam edebiliyorsunuz!
 
-1. Programı Nasıl Kurarım?
-2. Programın Kullanımı
+1. [Programı Nasıl Kurarım?](#programı-nasıl-kurarım)
+2. [Programın Kullanımı](#programın-kullanımı)
 
 ## Programı Nasıl Kurarım?
 Soundux açık kaynak ve özgür bir yazılım. Windows için de paketleri var. Paket yöneticinizde yoksa [Websitesinden](https://soundux.rocks/) veya [Github sayfasından](https://github.com/Soundux/Soundux) indirebilirsiniz.
 
 İndirdikten sonra karşınıza şöyle bir ekran çıkacak.
 
-![bir-programın-sesini-yansıtma](https://i.postimg.cc/P5KvLKMr/bir-program-n-sesini-yans-tma.png)
+![bir-programın-sesini-yansıtma](https://i.ibb.co/r774z5B/bir-program-n-sesini-yans-tma.png)
 
 ## Programın Kullanımı
 
@@ -20,7 +20,7 @@ Sağ üst tarafta yazan **output application** kısmından sesi aktarmak istedi�
 
 Daha sonrasında aşağıda yazan **passthrough** butonuna tıklayacaksınız. Tıkladığınız anda sol tarafta bir menü belirecek.
 
-![bir-programın-sesini-yansıtma-01](https://i.postimg.cc/5NBCJfYz/bir-program-n-sesini-yans-tma-01.png)
+![bir-programın-sesini-yansıtma-01](https://i.ibb.co/RpvKBj3/bir-program-n-sesini-yans-tma-01.png)
 
 Sesini aktarmak istediğiniz programı buradan seçebilirsiniz. Örnek resimde Firefox'u görüyorsunuz.
 
