@@ -24,3 +24,10 @@ body {
   background-color: hsl(10, 5%, 42%);
   color: #bdb7af;
 }
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+}

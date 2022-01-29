@@ -1,30 +1,57 @@
 .homepage {
   display: grid;
-  justify-content: center;
   justify-items: center;
+  grid-template-rows: auto auto 58rem;
 
   padding-top: 2rem;
-  list-style-type: none;
+
 
   &_heading-1 {
     padding-top: 1rem;
   }
 
-  &_posts {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 12rem);
-    width: 55%;
+  h1 {
+    grid-row: 1;
+    margin-bottom: 1rem;
+  }
 
+  &_posts {
     li {
-      margin-top: 2rem;
-      margin-right: 2rem;
-      text-align: center;
+      margin-top: 1rem;
     }
   }
 
-  @include media("<largest") {
+  &_pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    align-items: flex-start;
+    margin-top: 5rem;
+
+    a {
+      background-color: #383838;
+      padding: 8px 16px;
+      border-radius: 1rem;
+      text-decoration: none;
+      font-size: 2rem;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  @include media("<smallest") {
+    grid-template-rows: auto auto 48rem;
+
+    &_pagination {
+      a {
+        font-size: 1.6rem;
+        padding: 5px 10px;
+      }
+    }
+
     li {
       font-size: 1.6rem;
     }
