@@ -22,7 +22,7 @@ Bu makalade sizlere internette daha gizli ve güvenli olmanızı sağlayacak öz
 4. [Çift Faktörlü Doğrulama](#4-2fa)
 5. [Şifre Yöneticileri](#5-şifre-yöneticileri)
 6. [Tarayıcı Eklentileri](#6-tarayıcı-eklentileri)
-7. [Kameranızı Yazılımsal Olarak Kapatın](#7-kameranızı-yazılımsal-olarak-kapatm)
+7. [Kameranızı Yazılımsal Olarak Kapatın](#7-kameranızı-yazılımsal-olarak-kapatın)
 8. [Destek](#destek)
 
 
@@ -177,7 +177,7 @@ Mesajlaşırken eğer bağlantı şifreli değil ise aradaki herhangi biri veya 
 4. [Cookie Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - Seçtiğiniz websiteler dışındaki çerezleri otomatik olarak silen eklenti.
 
 
-# 7. Kameranızı Yazılımsal Olarak Kapatm
+# 7. Kameranızı Yazılımsal Olarak Kapatın
 
 Siz istemeseniz bile bazen bazı zararlı yazılımlar mikrofon veya kameranıza erişim sağlayabilir. Bundan kurtulmak için ya kameranızı tamamen sökün, veya kameranızı bir kağıt parçasıyla kapatın. Bunları yapmak istemiyorsanız GNU/Linux'ta sürücüleri devre dışı bırakabilirsiniz. 
 
