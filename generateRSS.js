@@ -61,8 +61,8 @@ async function buildRssItems() {
 async function generateRSS() {
   const rssFeed = `<?xml version="1.0" encoding="utf-8"?>
   <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Yusuf İpek</title>
-    <link href="https://yusufipek.me" />
+    <title>teknolojirehberleri.xyz</title>
+    <link href="https://teknolojirehberleri.xyz" />
     ${await buildRssItems()}
   </feed>`;
 
