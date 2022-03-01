@@ -1,0 +1,80 @@
+# Arch tabanlı bir dağıtım nasıl yapılır?
+
+İlk önce archiso paketimizi yükleyelim.
+
+`sudo pacman -S archiso`
+
+`sudo pacman -S make patch`
+
+Keyringlerde çakışma olmaması için temizlik yapıyoruz.
+
+`sudo pacman -Scc`
+
+`sudo pacman -Syyu`
+
+İso'muzu bu klasörde yapacağız.
+
+`mkdir arch`
+
+Archiso'nun hazır configlerini alıp düzenleyeceğiz.
+
+`sudo cp -r /usr/share/archiso/configs/releng/* arch/`
+
+Oluşturduğumuz klasöre iniyoruz.
+
+`cd arch/`
+
+İso'yu build ederken sistemde yüklü gelecek uygulamaları yazıyoruz. İşimiz bittikten sonra kaydetip çıkıyoruz. (ArchLinux Keyring paketini içine yazmayı unutmuyoruz.)
+
+`sudo mousepad packages.x86_64`
+
+`archlinux-keyring
+xfce4
+xfce4-goodies
+xarchiver
+xorg
+xorg-apps
+xorg-server
+xf86-video-intel
+xf86-video-amdgpu
+base-devel
+libxcursor
+libxft
+libxrandr
+xcb-util
+xcb-util-keysyms
+xcb-util-wm
+firefox`
+
+Airootfs klasörüne iniyoruz.
+
+`cd airootfs/`
+
+'cd' ile etc klasörüne iniyoruz.
+
+`cd etc`
+
+İçine 'skel' adında bir klasör açıyoruz.
+
+`sudo mkdir skel`
+
+Home dizinine geri dönüyoruz.
+
+`cd ..`
+
+`sudo mkarchiso -v -w arch/ -o arch/ arch/`
+
+**SON**
+
+Bu rehberi okuduğunuz için teşekkürler.
+
+Size kısaca Custom Arch İso'su oluşturmayı gösterdim.
+
+Linux Aliskanligi --- Github:
+
+[linux-aliskaligi (Linux Alışkanlığı) · GitHub](https://github.com/linux-aliskaligi)
+
+Linux Aliskanligi --- Youtube:
+
+[Linux Alışkanlığı - YouTube](https://www.youtube.com/channel/UCPD2gLvOGxgT8Yp4JbIB3tw)
+
