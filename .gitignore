@@ -35,3 +35,6 @@ yarn-error.log*
 
 blog/
 tags/
+
+#rss
+public/rss
