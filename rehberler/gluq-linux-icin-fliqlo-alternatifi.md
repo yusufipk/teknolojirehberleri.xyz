@@ -72,7 +72,7 @@ Parametreler :
 -r              WxH formatında özel çözünürlük (1920x1080)
 -s              Özel ekran ölçeği - boyutlandırma(0.5 - 1.5)
 ```
-Ekran koruyucuyu sistem başlangıçınca çalıştırmak için başlatıcı ekleyelim
+Ekran koruyucuyu sistem başlangıcında çalıştırmak için başlatıcı ekleyelim
 
 (Exec kısmını yukarıdan kişisel olarak değiştiriniz)
 
