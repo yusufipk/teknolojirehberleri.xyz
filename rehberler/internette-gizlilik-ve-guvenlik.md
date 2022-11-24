@@ -2,47 +2,47 @@
 
 **Soru: Neden gizlilik?**
 
-**Cevap: Kapitalism'in ele geçirdiği teknoloji çağında maalesef herkes sizden birşeyler koparmak istiyor. Büyük şirketlerden tut Hacker gruplarına. Gizlilik ve güvenlik önemlidir!**
+**Cevap: Kapitalizmin ele geçirdiği teknoloji çağında maalesef herkes sizden bir şeyler koparmak istiyor. Büyük şirketlerden tutun hacker gruplarına. Gizlilik ve güvenlik önemlidir!**
 
 # 
 
 # 1- İşletim sistemi
 
-### Gizlilik ve güvenlik için işletim sistemini iyi seçmek gerekir. Bİlgisayarınızı veya laptopunuzu satın aldığınızda varsayılan olan gelen işletim sistemleri çoğu zaman verilerinizi toplamakla beraber güvenliğinizide düşürmektedir.
+### Gizlilik ve güvenlik için işletim sistemini iyi seçmek gerekir. Bİlgisayarınızı veya laptopunuzu satın aldığınızda varsayılan olan gelen işletim sistemleri çoğu zaman verilerinizi toplamakla beraber güvenliğinizi de düşürmektedir.
 
 ## Tercih edilebilecek mobil işletim sistemleri:
 
-Calyx os (AOSP)
+Calyx OS (AOSP)
 
 GrapheneOS (AOSP)
 
 LineageOS (AOSP)
 
-AOSP: Android açık kaynak projesi (Android open source project)
+AOSP: Android Open Source Project (Android Açık Kaynak Projesi)
 
 ## Tercih edilebilecek basit  masaüstü işletim sistemleri:
 
-Fedora Workstation (GNU/LINUX)
+Fedora Workstation (GNU/Linux)
 
-Ubuntu (GNU/LINUX)
+Ubuntu (GNU/Linux)
 
 ## Tercih edilebilecek gelişmiş masaüstü işletim sistemleri:
 
-Alpine Linux (GNU/LINUX)
+Alpine Linux (GNU/Linux)
 
-Arch Linux (GNU/LINUX)
+Arch Linux (GNU/Linux)
 
-Debian (GNU/LINUX)
+Debian (GNU/Linux)
 
-Nix OS (GNU/LINUX)
+Nix OS (GNU/Linux)
 
- Qubes os (GNU/LINUX)
+ Qubes os (GNU/Linux)
 
-## Tor ağı kullanan GNU/LINUX dağıtımları:
+## Tor ağı kullanan GNU/Linux dağıtımları:
 
 Tails OS 
 
- Whonix
+Whonix
 
 ###### Kaynak:[Operating Systems | PrivacyTools](https://privacytools.io/operating-systems/)
 
@@ -50,7 +50,7 @@ Tails OS
 
 # 2- Sağlayıcılar
 
-## Servis sağlayıcıları internetin büyük bir bölümünü oluştururlar. Ve onları dikkatlice seçmek gerekir.
+## Servis sağlayıcıları internetin büyük bir bölümünü oluştururlar ve onları dikkatlice seçmek gerekir.
 
 ### 1/2 Arama Motorları
 
@@ -58,55 +58,55 @@ Tails OS
 
  [Searx](searx.me) - Tamamen açık kaynak kodlu, gizliliğe önem veren, meta arama motoru. Sonuçlarını hangi arama motorlarından alacağını kendiniz seçebilirsiniz. Açık kaynak kodlu olduğu için birçok sunucuda host edilir.   
 
-### Kullanılabilicek diğer arama motorları:
+### Kullanılabilecek diğer arama motorları:
 
-[Duckduckgo](https:duckduckgo.com) - Eklentisi ve birkaç yazlımı daha açık kaynak kodludur. Ancak kendisi kapalı kaynak kodludur. Gizliliğe önem verir. Sonuçları Yandex'den alır. Sunucuları Amerikadadır.
+[Duckduckgo](https:duckduckgo.com) - Eklentisi ve birkaç yazlımı daha açık kaynak kodludur. Ancak kendisi kapalı kaynak kodludur. Gizliliğe önem verir. Sonuçları Yandex'ten alır. Sunucuları Amerika'dadır.
 
-Startpage](https://startpage.com/)- Kapalı kaynak kodlu arama motoru. Sonuçlarını Google'dan alır. Sunucuları Avrupadadır.
+[Startpage](https://startpage.com/)- Kapalı kaynak kodlu arama motoru. Sonuçlarını Google'dan alır. Sunucuları Avrupa'dadır.
 
-### 2/2 Email
+### 2/2 E-Posta
 
-[Protonmail](https://protonmail.com) - Hızlı, şifrelenmiş ve ücretsizdir. 
+[Protonmail](https://protonmail.com) - Hızlı, şifrelenmiş ve ücretsizdir.
 
-[Tuttanota](https://tutanota.com/) - Ücretsiz şifrelenmiş bir mail sağlayıcısıdır.
+[Tuttanota](https://tutanota.com/) - Ücretsiz, şifrelenmiş bir mail sağlayıcısıdır.
 
-### 3/2 Dns
+### 3/2 DNS
 
-## Dns, internette girdiğiniz websitelerinin ip adreslerini söyleyen bir kitap gibidir.
+## DNS, internette girdiğiniz websitelerinin IP adreslerini söyleyen bir kitap gibidir.
 
-[1.1.1.1](https://1.1.1.1) - DÜnyadaki en hızlı dns sağlayıcısıdır. Gizliliğinizi arttırmakla beraber hızınızıda arttırır.
+[1.1.1.1](https://1.1.1.1) - Dünyadaki en hızlı DNS sağlayıcısıdır. Gizliliğinizi artırmakla beraber hızınızı da artırır.
 
-[Adguard Dns](https://adguard.com/en/adguard-dns/overview.html) - Reklamları engelleyebilen, kıbrısta bulunan dns sağlaycısı.
+[AdGuard DNS](https://adguard.com/en/adguard-dns/overview.html) - Reklamları engelleyebilen, Kıbrıs'ta bulunan DNS sağlaycısı.
 
 ### 4/2 VPN
 
-## Not: VPN'ler sizi anonim yapmaz, sadece ip adresinizi değiştirip internet servis sağlayıcısının girdiğiniz şifrelenmemiş siteleri görmesini engeller. Ancak bu siteleri vpn sağlayıcısıda görebilir! [VPN Firmalarının Tuzakları - Yusuf İpek](https://youtu.be/dd3CopniBW4)
+## Not: VPN'ler sizi anonim yapmaz, sadece IP adresinizi değiştirip internet servis sağlayıcısının girdiğiniz şifrelenmemiş siteleri görmesini engeller. Ancak bu siteleri VPN sağlayıcısı da görebilir! [VPN Firmalarının Tuzakları - Yusuf İpek](https://youtu.be/dd3CopniBW4)
 
-(Varsayılan dns sunucularını kullanıyorsanız bu siteler engelli olabilir.)
+(Varsayılan DNS sunucularını kullanıyorsanız bu siteler engelli olabilir.)
 
-[Protonvpn](https://protonvpn.com/) -Ücretsiz
+[Proton VPN](https://protonvpn.com/) - Ücretsiz
 
-[Mullvad VPN ](https://mullvad.net/en/) - Ücretli
+[Mullvad VPN](https://mullvad.net/en/) - Ücretli
 
-[I VPN](https://www.ivpn.net/) -  Ücretli
+[IVPN](https://www.ivpn.net/) - Ücretli
 
 ### 5/2 Mesajlaşma
 
-Mesajlaşırken eğer bağlantı şifreli değil ise aradaki herhangi biri veya sağlayıcı sizin mesjlarınızı okuyabilir. Hatta bazen şifreli olsa bile okunabilir.
+Mesajlaşırken eğer bağlantı şifreli değil ise aradaki herhangi biri veya sağlayıcı sizin mesajlarınızı okuyabilir. Hatta bazen şifreli olsa bile okunabilir.
 
 Önerilen mesajlaşma programları:
 
-[Matrix için Element](https://element.io/) Matrix üzerinden köprü ile  Whatsapp ve Discordda konuşmak mümkün.
+[Matrix için Element](https://element.io/) Matrix üzerinden köprü ile WhatsApp ve Discord'ta konuşmak mümkün.
 
-[Signal](https://signal.org/en/)- Şifrelenmiş açık kaynak kodlu harika bir mesajlaşma programı.
+[Signal](https://signal.org/en/)- Şifrelenmiş, açık kaynak kodlu harika bir mesajlaşma programı.
 
-# 3-Tarayıcılar
+# 3- Tarayıcılar
 
-(Varsayılan dns sunucularını kullanıyorsanız bu siteler engelli olabilir.)
+(Varsayılan DNS sunucularını kullanıyorsanız bu siteler engelli olabilir.)
 
-[Tor Browser](https://torproject.org)- Girdiğiniz siteleri 3 anonim tor sunucusundan geçirip size ulaştırır. Tamamen açık kaynak kodludur.
+[Tor Browser](https://torproject.org)- Girdiğiniz siteleri 3 anonim Tor sunucusundan geçirip size ulaştırır. Tamamen açık kaynak kodludur.
 
-[Brave](https://brave.com)- Chromium tabanlı hızlı bir tarayıcı. Reklam engelleyici ve birçok içerik beraberinde gelir. Gizli sekmede Tor bağlantısı seçeneği vardır.Tamamen açık kaynak kodludur.
+[Brave](https://brave.com)- Chromium tabanlı hızlı bir tarayıcı. Reklam engelleyici ve birçok içerik beraberinde gelir. Gizli sekmede Tor bağlantısı seçeneği vardır. Tamamen açık kaynak kodludur.
 
 [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Açık kaynak kodlu kişiselleştirilebilir tarayıcı. Brave'e göre yavaş olabilir. 
 
@@ -114,27 +114,27 @@ Mesajlaşırken eğer bağlantı şifreli değil ise aradaki herhangi biri veya 
 
 # 2FA
 
-## 2 faktor doğrulama olarakta bilinir. Sadece sizin bildiğiniz birşey (parola)'in yanına sizde olan birşey (Birkaç haneli bir kod veya bir cihaz gibi)'in birleşmiş halidir.
+## 2 aşamalı doğrulama olarak da bilinir. Sadece sizin bildiğiniz bir şeyin (parola) yanına sizde olan bir şeyin (birkaç haneli bir kod veya bir cihaz gibi) birleşmiş halidir.
 
-FIDO - En güvenlisi denilebilir, sizin elinizde olan fiziksel bir usb cihazı bilgisayarınıza veya telefonuza bağlayıp bir tuşa basıp onaylarsınız. Unutmayın ki fiziksel erişim durumunda savunmasız kalır.
+FIDO - En güvenlisi denilebilir, sizin elinizde olan fiziksel bir USB cihazı bilgisayarınıza veya telefonuza bağlayıp bir tuşa basıp onaylarsınız. Unutmayın ki fiziksel erişim durumunda savunmasız kalır.
 
-SMS- Telefon numaranıza gönderilen bir kod. O servise numaranızla güvenmeniz gerekir. Ve telefonunuza sms kodları çalan bir program yükleme ihtimalinizde olabilir.
+SMS - Telefon numaranıza gönderilen bir kod. O servise numaranızla güvenmeniz gerekir. Ve telefonunuza sms kodları çalan bir program yükleme ihtimalinizde olabilir.
 
-OTP - Bir şifre veya [biometric](https://en.wikipedia.org/wiki/Biometrics) ile kendinizi doğrulayıp her 20 saniyede bir üretilen rastgele koddur. Ancak bu kurtarma kodlarını kaybetme durumunuzda geri getirmenin yolu yoktur. Önerilen OTP uygulamaları:
+OTP - Bir şifre veya [biyometrik](https://en.wikipedia.org/wiki/Biometrics) ile kendinizi doğrulayıp her 20 saniyede bir üretilen rastgele koddur. Ancak bu kurtarma kodlarını kaybetme durumunuzda geri getirmenin yolu yoktur. Önerilen OTP uygulamaları:
 
 IOS: [Tofu](https://www.tofuauth.com/)
 
-Android: [FreeOTP](https://freeotp.github.io/) ,[Aegis](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis&hl=en&gl=US)
+Android: [FreeOTP](https://freeotp.github.io/), [Aegis](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis&hl=en&gl=US)
 
       
 
-# Kameralarınızı hem fiziksel hemde işletim sisteminiz üzerinden kapatın!
+# Kameralarınızı hem fiziksel hem de işletim sisteminiz üzerinden kapatın!
 
-Siz istemeseniz bile bazen bazı zararlı yazılımlar mikrofon veya kameranıza erişim sağlayabilir. Bundan kurtulmak için ya kameranızı tamamen sökün, Veya Kameranızı bir kağıt parçasıyla kapatın. Ve Linux üzerinden sürücülerini devre dışı bırakın. 
+Siz istemeseniz bile bazen bazı zararlı yazılımlar mikrofon veya kameranıza erişim sağlayabilir. Bundan kurtulmak için ya kameranızı tamamen sökün ya da kameranızı bir kağıt parçasıyla kapatın. Ve Linux üzerinden sürücülerini devre dışı bırakın. 
 
 Sürücüleri devre dışı bırakmak için:
 
- Favori text editörünüz (nano,vim,gedit) ile bu dosyayı düzenleyin:
+Favori text editörünüz (nano, vim, gedit) ile bu dosyayı düzenleyin:
 
 ```
 nano /etc/modprobe.d/blacklist.conf
@@ -148,21 +148,21 @@ nano /etc/modprobe.d/blacklist.conf
 blacklist uvcvideo
 ```
 
-Ve bilgisayarınızı yeniden başlatın. Bu sizin kameranızı tamamen devre dışı bırakıcaktır. Bu yazıyı silmek kameranızı geri etkinleştiricektir.
+Ve bilgisayarınızı yeniden başlatın. Bu sizin kameranızı tamamen devre dışı bırakacaktır. Bu yazıyı silmek kameranızı geri etkinleştirecektir.
 
 Telefon içinse bazı aparatlar satın alabilirsiniz.
 
-[Bunu gibi](https://www.gittigidiyor.com/bilgisayar-tablet/laptop-cep-telefonu-notebook-pc-bilgisayar-tv-kamera-webcam-cover-sticker-kapatici-koruyucu_pdp_575674088)
+[Bunun gibi](https://www.gittigidiyor.com/bilgisayar-tablet/laptop-cep-telefonu-notebook-pc-bilgisayar-tv-kamera-webcam-cover-sticker-kapatici-koruyucu_pdp_575674088)
 
 # Şifre yöneticisi
 
-Şifre yöneticileri sizin için rastgele uzun ve karmaşık şifreler üretip saklarlar. Böylece heryerde aynı şifreyi kullanma derdinden de, Şifreyi unutma derdinden de kurtulmuş olursunuz.
+Şifre yöneticileri sizin için rastgele uzun ve karmaşık şifreler üretip saklarlar. Böylece her yerde aynı şifreyi kullanma derdinden de, şifreyi unutma derdinden de kurtulmuş olursunuz.
 
 Önerilen şifre yöneticileri:
 
-[Bitwarden](https://bitwarden.com/) - Bulut tabanlı şifre yöneticisi. Tamamen açık kaynaklıdır. İçine 2fa ekleyebilirsiniz.
+[Bitwarden](https://bitwarden.com/) - Bulut tabanlı şifre yöneticisi. Tamamen açık kaynaklıdır. İçine 2FA ekleyebilirsiniz.
 
-[Keepas](https://keepass.info/) - Yerel tabanlı şifre yöneticisi. Tamamen açık kaynaklı.
+[Keepass](https://keepass.info/) - Yerel tabanlı şifre yöneticisi. Tamamen açık kaynaklı.
 
 
 
@@ -170,11 +170,11 @@ Telefon içinse bazı aparatlar satın alabilirsiniz.
 
 # Tarayıcı eklentileri
 
-[Noscript](https://noscript.net/)- Javascripti engeller. Sayfalar daha hızlı açılır ve izleyiciler manuel olarak engellenebilir.
+[Noscript](https://noscript.net/) - Javascripti engeller. Sayfalar daha hızlı açılır ve izleyiciler manuel olarak engellenebilir.
 
-[Ublock Origin](https://en.wikipedia.org/wiki/UBlock_Origin)- Reklam engelleyici ayarlarını doğru yaparsanız görüntü ve fontlarıda engelleyebilir.
+[uBlock Origin](https://en.wikipedia.org/wiki/UBlock_Origin) - Reklam engelleyici ayarlarını doğru yaparsanız görüntü ve fontları da engelleyebilir.
 
-[Terms of service; Didn't read](https://tosdr.org/)- Websitelerinin kullanıcı sözleşmesi ve gizlilik politikasını önünüze seren bir eklenti. 
+[Terms of service; Didn't read](https://tosdr.org/)- Web sitelerinin kullanıcı sözleşmesi ve gizlilik politikasını önünüze seren bir eklenti.
 
 
 
@@ -188,13 +188,13 @@ Telefon içinse bazı aparatlar satın alabilirsiniz.
 
 # Destek
 
-Buraya kadar okuduysan, teşekkürler! Bunlar benim bildiklerim. İletişim için bana Schwarze#1234 ile Discorddan ulaşabilirsin.
+Buraya kadar okuduysan, teşekkürler! Bunlar benim bildiklerim. İletişim için bana `Schwarze#1234` ile Discord'tan ulaşabilirsin.
 
-Bana destek olmak istiyorsan eğer, ben burada sadece bildiklerimi anlattım. Bunca açık kaynak kodlu proje varken sadece bunun hakkında bir makale yazan birine destek olmak saçma olur.
+Eğer bana destek olmak istiyorsan, ben burada sadece bildiklerimi anlattım. Bunca açık kaynak kodlu proje varken sadece bunun hakkında bir makale yazan birine destek olmak saçma olur.
 
-[Tor Projesine Destek](https://donate.torproject.org/)
+[Tor Projesi'ne Destek](https://donate.torproject.org/)
 
-[Keepas Destek]([Donate - KeePass](https://keepass.info/donate.html))
+[Keepass Destek]([Donate - KeePass](https://keepass.info/donate.html))
 
 [Graphene OS Destek](https://grapheneos.org/donate)
 
@@ -202,7 +202,7 @@ Bana destek olmak istiyorsan eğer, ben burada sadece bildiklerimi anlattım. Bu
 
 [Matrix Destek](https://matrix.org/)
 
-Diğerleri için projelerin  sayfalarını ziyaret edebilirsiniz.
+Diğerleri için projelerin sayfalarını ziyaret edebilirsiniz.
 
 
 
