@@ -12,7 +12,7 @@ Keyringlerde çakışma olmaması için temizlik yapıyoruz.
 
 `sudo pacman -Syyu`
 
-İso'muzu bu klasörde yapacağız.
+ISO'muzu bu klasörde yapacağız.
 
 `mkdir arch`
 
@@ -24,7 +24,7 @@ Oluşturduğumuz klasöre iniyoruz.
 
 `cd arch/`
 
-İso'yu build ederken sistemde yüklü gelecek uygulamaları yazıyoruz. İşimiz bittikten sonra kaydetip çıkıyoruz. (ArchLinux Keyring paketini içine yazmayı unutmuyoruz.)
+ISO'yu build ederken sistemde yüklü gelecek uygulamaları yazıyoruz. İşimiz bittikten sonra kaydedip çıkıyoruz. (ArchLinux Keyring paketini içine yazmayı unutmuyoruz.)
 
 `sudo mousepad packages.x86_64`
 
@@ -68,7 +68,7 @@ Home dizinine geri dönüyoruz.
 
 Bu rehberi okuduğunuz için teşekkürler.
 
-Size kısaca Custom Arch İso'su oluşturmayı gösterdim.
+Size kısaca özel Arch ISO'su oluşturmayı gösterdim.
 
 Linux Aliskanligi --- Github:
 
