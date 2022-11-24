@@ -2,13 +2,13 @@
 
 ## Conky Nedir?
 
-Conky herhangi bir masaüstü ortamına widget eklemeye yarayan bir programdır. İlk önce nasıl indirileyeceğine geçelim.
+Conky herhangi bir masaüstü ortamına widget eklemeye yarayan bir programdır. İlk önce nasıl indirileceğine geçelim.
 
 - Debian tabanlı bir dağıtıma indirmek için: (Debian, Mx Linux, Linux Mint vs.)
   
       sudo apt install conky conky-manager
 
-- Arch tabanlı bir dağıtıma indirmek için:(Arch Linux, Manjaro, Archman vs.)
+- Arch tabanlı bir dağıtıma indirmek için: (Arch Linux, Manjaro, Archman vs.)
   
       sudo pacman -S conky conky-manager
 
@@ -16,15 +16,15 @@ Conky herhangi bir masaüstü ortamına widget eklemeye yarayan bir programdır.
   
       sudo dnf install conky conky-manager
   
-  Sizde hangi dağıtımı kullanıyorsanız ona uygun olan paket yönetici ile `conky` ve `conky-manager`'i indirebilirsiniz.
+  Sizde hangi dağıtımı kullanıyorsanız ona uygun olan paket yönetici ile `conky` ve `conky-manager`'ı indirebilirsiniz.
 
 ## Conky Nasıl Kullanılır?
 
-Menüye Conky Manager yazıp açabiliriz bu kısımda bazı widgetler var. 
+Menüye Conky Manager yazıp açabiliriz; bu kısımda bazı widgetler var.
 
 ![conky](https://i.ibb.co/RjfP8y7/conky.png)
 
-İstediğinizi seçip  widgeti uygulayabilirsiniz ayrıca seçtiğimiz widgetide düzenleyebiliriz. İstediğimiz widgetin üstüne tıklayıp yukarıdaki edit widgete tıklayarak istediğiniz özelleştirmeyi yapabilirsiniz. 
+İstediğinizi seçip widgetı uygulayabilirsiniz ayrıca seçtiğiniz widgetı da düzenleyebilirsiniz. İstediğiniz widgetın üstüne tıklayıp yukarıdaki "Edit Widget"a tıklayarak istediğiniz özelleştirmeyi yapabilirsiniz.
 
 Çok kolay bir şekilde masaüstüne widget ekledik.
 
@@ -32,7 +32,7 @@ Menüye Conky Manager yazıp açabiliriz bu kısımda bazı widgetler var.
 
 Dilerseniz internetten [yeni widget](https://www.ubuntupit.com/best-conky-themes-for-linux/) indirip kullanabilirsiniz.
 
-İndirdiğiniz widget dosyalarını .config/conky klasörünün içerisine atın. Böylece Conky Manager içerisinde eklediğiniz widgetları görebileceksiniz.
+İndirdiğiniz widget dosyalarını `.config/conky` klasörünün içerisine atın. Böylece Conky Manager içerisinde eklediğiniz widgetları görebileceksiniz.
 
 # SON
 
