@@ -60,7 +60,7 @@ Whonix
 
 ### Kullanılabilecek diğer arama motorları:
 
-[Duckduckgo](https:duckduckgo.com) - Eklentisi ve birkaç yazlımı daha açık kaynak kodludur. Ancak kendisi kapalı kaynak kodludur. Gizliliğe önem verir. Sonuçları Yandex'ten alır. Sunucuları Amerika'dadır.
+[Duckduckgo](https://duckduckgo.com) - Eklentisi ve birkaç yazlımı daha açık kaynak kodludur. Ancak kendisi kapalı kaynak kodludur. Gizliliğe önem verir. Sonuçları Yandex'ten alır. Sunucuları Amerika'dadır.
 
 [Startpage](https://startpage.com/)- Kapalı kaynak kodlu arama motoru. Sonuçlarını Google'dan alır. Sunucuları Avrupa'dadır.
 
