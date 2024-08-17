@@ -54,7 +54,7 @@ Bu haberler sadece birer örnek. Arka kapılar dışında özgür olmayan işlet
 
 ### Tercih Edilebilecek Gelişmiş Masaüstü İşletim Sistemleri
 
-1. [Alpine Linux](https://manjaro.org/) (GNU/LINUX)
+1. [Alpine Linux](https://alpinelinux.org/) (LINUX)
 2. [Arch Linux](https://archlinux.org/) (GNU/LINUX)
 3. [Debian](https://www.debian.org/) (GNU/LINUX)
 4. [Nix OS](https://nixos.org/) (GNU/LINUX)

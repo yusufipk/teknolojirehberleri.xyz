@@ -28,7 +28,7 @@ Ubuntu (GNU/LINUX)
 
 ## Tercih edilebilecek gelişmiş masaüstü işletim sistemleri:
 
-Alpine Linux (GNU/LINUX)
+Alpine Linux (LINUX)
 
 Arch Linux (GNU/LINUX)
 
